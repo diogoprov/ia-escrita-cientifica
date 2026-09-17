@@ -54,19 +54,73 @@ quarto preview         # recarrega ao salvar
 
 Não há chunks executáveis: o render precisa apenas do Quarto (sem R, sem Python).
 
-## Publicação
+## Publicação — fluxo completo
 
-O deploy é feito pelo GitHub Actions. **Antes do primeiro push**, habilite o Pages com origem "GitHub Actions":
+O repositório já está inicializado localmente, na branch `main`, com o primeiro commit feito. O que falta é criar o repositório remoto, habilitar o Pages e empurrar.
+
+### 1. Conferir o estado local
 
 ```bash
-gh repo create diogoprov/<nome-do-repo> --public --source=. --remote=origin
-gh api -X POST repos/diogoprov/<nome-do-repo>/pages -f build_type=workflow
+cd "~/Library/CloudStorage/OneDrive-Pessoal/Aulas/Palestras esparsas minhas/palestra AI bio animal/ia-escrita-cientifica"
+
+git status --short          # deve vir vazio
+git log --oneline           # deve mostrar 1 commit em main
+quarto render               # confirma que docs/index.html é gerado sem erro
+```
+
+### 2. Autenticar o `gh` (só na primeira vez nesta máquina)
+
+```bash
+gh auth status || gh auth login    # escolha GitHub.com → HTTPS → browser
+```
+
+### 3. Criar o repositório remoto e habilitar o Pages
+
+A ordem importa: **habilite o Pages antes do primeiro push**.
+
+```bash
+REPO=ia-escrita-cientifica          # troque se quiser outro nome
+
+gh repo create diogoprov/$REPO --public --source=. --remote=origin \
+  --description "Palestra: IA na redação científica — ética, regras editoriais e boas práticas de reporte"
+
+gh api -X POST repos/diogoprov/$REPO/pages -f build_type=workflow
+
 git push -u origin main
 ```
 
-Sem esse passo, o job `deploy` falha com `Failed to create deployment (status: 404)` — o que significa que o Pages nunca foi habilitado para o repositório, e não um problema de permissão.
+`build_type=workflow` é o equivalente por API de **Settings → Pages → Source = "GitHub Actions"**. Se esse passo for pulado, o job `deploy` falha com `Failed to create deployment (status: 404)` — isso significa que o Pages nunca foi habilitado no repositório, e **não** um problema de permissão. Recuperação: habilite em Settings e clique em "Re-run jobs" (o artefato do build é reaproveitado).
 
-`docs/` está no `.gitignore`: a saída é construída pelo Actions, não versionada.
+### 4. Acompanhar o build e abrir a página
+
+```bash
+gh run watch                                   # acompanha o Actions ao vivo
+gh run list --limit 3                          # histórico, se preferir
+gh api repos/diogoprov/$REPO/pages --jq .html_url   # URL publicada
+```
+
+A URL padrão será `https://diogoprov.github.io/ia-escrita-cientifica/`.
+
+### 5. Ciclo de edição, dali em diante
+
+```bash
+quarto preview              # recarrega ao salvar, para ajustar os slides
+# (Ctrl+C para sair)
+
+git add -A
+git commit -m "Ajusta o bloco X"
+git push                    # o Actions renderiza e publica sozinho
+```
+
+`docs/` está no `.gitignore`: a saída é construída pelo Actions, não versionada. Isso é **diferente** do repo do site (`diogoprov.github.io`), onde `docs/` precisa ficar versionado — não confunda os dois.
+
+### Se quiser servir em `provetelab.org/ia-escrita-cientifica/`
+
+Mesmo padrão das disciplinas migradas: adicione `site-url` ao `_quarto.yml` e crie o arquivo `CNAME`. Só faz sentido se você já tiver o DNS apontado para esse repositório.
+
+### Nota sobre OneDrive
+
+O repositório fica dentro do OneDrive. Para evitar `mmap failed: Operation timed out` no push e `Resource deadlock avoided` na leitura, marque a pasta como **"Always keep on this device"** no Finder. O OneDrive não aplica isso automaticamente a arquivos criados depois — reconfira se algum render falhar ao ler um arquivo.
 
 ## Licença
 
