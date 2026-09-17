@@ -1,0 +1,16 @@
+# Saída do Quarto (publicada via GitHub Actions, não versionada)
+/docs/
+/.quarto/
+*_files/
+
+# macOS
+.DS_Store
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# PDFs de fonte (materiais de leitura, não redistribuíveis)
+*.pdf
