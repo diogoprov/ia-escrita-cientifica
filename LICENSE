@@ -1,0 +1,67 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Diogo Borges Provete
+
+Este trabalho — os slides (`index.qmd`), o tema (`custom.scss`), a configuração
+do projeto e o texto do `README.md` — está licenciado sob a Licença Creative
+Commons Atribuição 4.0 Internacional.
+
+Você tem a liberdade de:
+
+  - Compartilhar — copiar e redistribuir o material em qualquer suporte ou
+    formato, para qualquer finalidade, inclusive comercial.
+  - Adaptar — remixar, transformar e criar a partir do material, para qualquer
+    finalidade, inclusive comercial.
+
+Sob a seguinte condição:
+
+  - Atribuição — você deve dar o crédito apropriado, prover um link para a
+    licença e indicar se mudanças foram feitas.
+
+Texto integral da licença:
+  https://creativecommons.org/licenses/by/4.0/legalcode.pt
+Resumo para leigos:
+  https://creativecommons.org/licenses/by/4.0/deed.pt-br
+
+Atribuição sugerida:
+
+  Provete DB (2026). IA na redação científica: ética, regras editoriais e boas
+  práticas de reporte. https://provetelab.org/ia-escrita-cientifica/ — CC BY 4.0
+
+
+-------------------------------------------------------------------------------
+MATERIAL DE TERCEIROS
+-------------------------------------------------------------------------------
+
+A licença acima cobre o material de autoria de Diogo B. Provete. As figuras
+reaproveitadas de artigos de acesso aberto, em `assets/figs/`, permanecem sob as
+licenças de seus originais e NÃO são relicenciadas por este arquivo:
+
+  assets/figs/aidit-fig1.png
+  assets/figs/aidit-fig7.png
+    Figuras 1 e 7 de Drobniak SM et al. (2026). "A systematic map of generative
+    AI guidelines and reporting in ecology and evolutionary biology: towards the
+    framework of AI disclosure for Improved Transparency (AIdIT)". Research
+    Integrity and Peer Review. doi:10.1186/s41073-026-00230-1
+    Licença: CC BY-NC-ND 4.0. Reproduzidas sem alterações. Reutilização
+    permitida apenas para fins não comerciais e sem obras derivadas.
+
+  assets/figs/white-workflow.png
+    Recorte do resumo gráfico de White RR (2025). "Generative artificial
+    intelligence tools in journal article preparation: a preliminary catalog of
+    ethical considerations, opportunities, and pitfalls". JDS Communications
+    6:452-457. doi:10.3168/jdsc.2024-0707
+    Licença: CC BY 4.0.
+
+  assets/figs/daisy-fig1.png
+    Figura 1 de Ahmetoglu Y, Constantinides M, Cox A (2026). "AI Disclosure with
+    DAISY". CHIWORK '26. doi:10.1145/3808045.3808056
+    Licença: CC BY 4.0.
+
+Citações literais de políticas editoriais (COPE, Elsevier, Springer Nature,
+Wiley, Taylor & Francis, Sage, Cambridge, Oxford University Press) e do ensaio
+de Karamanis (2026) aparecem nos slides como citação com atribuição, sob o
+direito de citação, e não estão cobertas pela licença acima.
+
+O texto da Portaria CNPq nº 2.664/2026 é ato normativo oficial e, nos termos do
+art. 8º, IV, da Lei nº 9.610/1998, não é objeto de proteção autoral.

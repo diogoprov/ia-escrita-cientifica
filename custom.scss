@@ -9,6 +9,9 @@ $bsl-bg-soft:     #f3eee3;  // slightly deeper cream for callouts
 $bsl-bg-card:     #ffffff;
 $bsl-border:      #e3dccd;
 $bsl-ink:         #2d3748;
+// $bsl-muted sobre o fundo creme fica no limite de contraste; esta versão
+// escurecida é a usada em texto pequeno (fontes, créditos de figura).
+$bsl-muted-escuro: #59616b;
 
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
   "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif !default;
@@ -73,12 +76,12 @@ $code-block-border-color: $bsl-border;
 // Linha de fonte / crédito
 .fonte {
   font-size: 0.55em;
-  color: $bsl-muted;
+  color: $bsl-muted-escuro;
   line-height: 1.35;
   margin-top: 0.7rem;
 }
 
-.fonte a { color: $bsl-muted; text-decoration: underline; }
+.fonte a { color: $bsl-muted-escuro; text-decoration: underline; }
 
 // Números-destaque do bloco de cenário
 .numero {
@@ -121,8 +124,11 @@ $code-block-border-color: $bsl-border;
 }
 
 // Citação literal de política / norma
+// A cor precisa ser declarada: o tema padrão do revealjs usa um azul
+// acinzentado (#6b80a3) que sobre branco fica em ~3,9:1 de contraste.
 .reveal blockquote {
   background: $bsl-bg-card;
+  color: $bsl-ink;                 // ~12,6:1 sobre branco
   border-left: 4px solid $bsl-accent;
   box-shadow: none;
   font-style: normal;
@@ -130,6 +136,48 @@ $code-block-border-color: $bsl-border;
   padding: 0.7em 1em;
   width: 100%;
 }
+
+.reveal blockquote p,
+.reveal blockquote em,
+.reveal blockquote strong { color: inherit; }
+
+// Citação em destaque (blog, ensaio) — maior e com aspas
+.bsl-citacao {
+  font-size: 1.15em;
+  line-height: 1.35;
+  color: $bsl-accent-dark;
+  border-left: 4px solid $bsl-accent;
+  padding: 0.4em 0 0.4em 0.9em;
+  margin: 0.6rem 0 1rem;
+}
+
+.bsl-citacao-fonte {
+  font-size: 0.62em;
+  color: $bsl-muted;
+  margin-top: -0.4rem;
+}
+
+// Figuras reaproveitadas de artigos com licença permissiva
+.bsl-fig img {
+  max-height: 520px;
+  width: auto;
+  background: #ffffff;
+  border: 1px solid $bsl-border;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.bsl-fig-alta img { max-height: 600px; }
+.bsl-fig-peq img  { max-height: 190px; }
+
+.credito {
+  font-size: 0.5em;
+  color: $bsl-muted-escuro;
+  line-height: 1.3;
+  margin-top: 0.35rem;
+}
+
+.credito a { color: $bsl-muted-escuro; text-decoration: underline; }
 
 // Slide de agradecimento
 .bsl-qr img {

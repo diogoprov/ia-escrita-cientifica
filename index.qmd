@@ -114,15 +114,28 @@ Van Noorden R (2023). *More than 10,000 research papers were retracted in 2023 �
 
 ## E na nossa área? Ecologia e evolução {.smaller}
 
+::: {.columns}
+::: {.column width="52%"}
 Drobniak et al. (2026) mapearam **230 periódicos de ecologia e biologia evolutiva** e auditaram artigos publicados:
 
 - **45% (103/230) não têm nenhuma orientação** sobre uso de IA — nem uma menção.
 - Onde há política, ela é quase sempre **genérica e herdada da editora**, não do periódico.
 - **Menos de 6% dos artigos** declaram uso de IA — mesmo em periódicos com política formal.
-- Declarações de contribuição de autoria, por contraste, aparecem em **mais de 67%** dos artigos.
+- Periódicos da **mesma editora divergem entre si** (painel C).
 
 ::: {.fonte}
 Drobniak SM et al. *A systematic map of generative AI guidelines and reporting in ecology and evolutionary biology: towards the framework of AI disclosure for Improved Transparency (AIdIT)*. Research Integrity and Peer Review (2026). doi:10.1186/s41073-026-00230-1
+:::
+:::
+::: {.column width="48%"}
+::: {.bsl-fig .bsl-fig-alta}
+![](assets/figs/aidit-fig1.png){fig-alt="Figura 1 de Drobniak et al. 2026: A, proporção de periódicos com e sem diretrizes de IA; B, sobreposição com diretrizes de contribuição de autoria; C, diagrama aluvial por editora."}
+:::
+
+::: {.credito}
+Fig. 1 de Drobniak et al. (2026), Res Integr Peer Rev, doi:10.1186/s41073-026-00230-1. Reproduzida sem alterações sob CC BY-NC-ND 4.0.
+:::
+:::
 :::
 
 ## O diagnóstico em uma frase {.smaller}
@@ -165,6 +178,31 @@ COPE, *Authorship and AI tools* (posição revisada em 13/02/2023; versão 1 pub
 "Authors are fully responsible for the content of their manuscript, even those parts produced by an AI tool, and are thus liable for any breach of publication ethics." (COPE)
 :::
 
+## Quem faz o quê {.smaller}
+
+::: {.columns}
+::: {.column width="47%"}
+Um fluxo de trabalho proposto para preparação de artigos: a IA entra como **conferência e polimento**, nunca como origem do conteúdo ou do julgamento.
+
+::: {.bsl-destaque}
+Repare na assimetria: tudo que exige **responder pelo resultado** — analisar, citar, discutir — fica do lado humano.
+:::
+
+::: {.fonte}
+White RR (2025). *Generative artificial intelligence tools in journal article preparation: a preliminary catalog of ethical considerations, opportunities, and pitfalls*. JDS Communications 6:452–457. doi:10.3168/jdsc.2024-0707
+:::
+:::
+::: {.column width="53%"}
+::: {.bsl-fig}
+![](assets/figs/white-workflow.png){fig-alt="Tabela de exemplo de fluxo de trabalho: coluna Human com analisar dados, criar tabelas, levantar pontos-chave, escrever seções, citar literatura, discutir métodos; coluna GenAI com conferência preliminar da interpretação dos dados, revisão de gramática e fluxo lógico, apontar detalhes faltantes."}
+:::
+
+::: {.credito}
+Recorte do resumo gráfico de White (2025), JDS Communications, doi:10.3168/jdsc.2024-0707, sob CC BY 4.0.
+:::
+:::
+:::
+
 ## O problema de equidade tem dois lados {.smaller}
 
 **A favor do uso:** para quem não é falante nativo de inglês, LLMs reduzem uma barreira linguística real e documentada — e essa barreira sempre foi um filtro injusto na ciência.
@@ -192,6 +230,26 @@ Escrever o primeiro artigo **é** o método de formação. Terceirizar essa etap
 ::: {.fonte}
 *Best Practices for Using AI When Writing Scientific Manuscripts* (Editorial). ACS Nano 17:4091–4093 (2023). doi:10.1021/acsnano.3c01544
 :::
+
+## "The machines are fine. I'm worried about us." {.smaller}
+
+::: {.bsl-citacao}
+"The grunt work *is* the work."
+:::
+
+::: {.bsl-citacao}
+"You can't skip the first five years of learning and expect to survive the next twenty."
+:::
+
+::: {.bsl-citacao-fonte}
+Minas Karamanis, *The machines are fine. I'm worried about us.* (30/03/2026) — <https://ergosphere.blog/posts/the-machines-are-fine/>
+:::
+
+::: {.bsl-destaque}
+O argumento do ensaio: **o risco não é tecnológico, é institucional.** O que corrói a formação não é a ferramenta, e sim o sistema de incentivos que premia volume de publicação em vez de compreensão — a IA só tornou isso barato o bastante para ficar visível.
+:::
+
+Vale a pena ler inteiro. É a peça mais honesta que li sobre o assunto, e não é sobre IA: é sobre nós.
 
 # 2 · As regras das editoras {.bsl-secao background-color="#f3eee3"}
 
@@ -337,9 +395,13 @@ Nature Portfolio, *Artificial Intelligence (AI)*: <https://www.nature.com/nature
 
 > "AI use must be declared and clearly explained in publications such as research papers"; "AI and LLM tools may not be listed as an author on any scholarly work published by Cambridge"; "Authors are accountable for the accuracy, integrity and originality of their research papers, including for any use of AI".
 
-**Oxford University Press** — além da declaração, exige que autores completem um **AI Use Declaration Form**, e é a mais explícita sobre propriedade intelectual:
+**Oxford University Press** — é a única das sete com um **formulário próprio**: "Authors and Volume Editors should be sure to complete the **AI Use Declaration Form**". Também é a mais explícita sobre propriedade intelectual:
 
 > "you must not upload any work you intend to publish with OUP, in full or in part, into any Gen AI tool that does not permit you to opt out of re-use or training in this way."
+
+::: {.bsl-destaque}
+Formulário da OUP — *AI Use Declaration for Authors and Contributors*: [link direto (PDF)](https://static.primary.prod.gcms.the-infra.com/static/umbrella/document/AI_Use_Declaration_for_Authors_andContributors.pdf?node=f1c50b798d3d9a6eecb1)
+:::
 
 ::: {.fonte}
 <https://www.cambridge.org/core/services/publishing-ethics/authorship-and-contributorship-journals> · OUP, *Author use of Artificial Intelligence (AI)*
@@ -359,6 +421,25 @@ Drobniak et al. (2026) confirmaram empiricamente: periódicos da **mesma** edito
 :::
 
 # 3 · A Portaria CNPq nº 2.664/2026 {.bsl-secao background-color="#f3eee3"}
+
+## Antes da portaria: o Brasil regula IA cedo {.smaller}
+
+Hilliard et al. (2026) compararam a política de IA em oito jurisdições — UE, Reino Unido, China, **Brasil**, Rússia, EUA, Coreia do Sul e Singapura:
+
+> "Brazil's Bill No. 5051/2019 was one of the earliest AI law proposals around the world."
+
+> "the majority of AI laws that have been passed are concentrated across Europe, the US, China, Brazil and Russia."
+
+- O PL 2338/2023, **aprovado em 10 de dezembro de 2024**, adota abordagem **baseada em risco**, como o EU AI Act: avaliação preliminar obrigatória, avaliação de impacto pública para sistemas de alto risco, responsabilidade objetiva por danos e proibições para risco excessivo.
+- Multas de até **R$ 50 milhões ou 2% do faturamento anual**.
+
+::: {.bsl-destaque}
+A portaria do CNPq não é um ponto fora da curva: é a ponta, dentro da ciência, de uma trajetória regulatória em que o Brasil chegou cedo.
+:::
+
+::: {.fonte}
+Hilliard A, Gulley A, Kazim E, Koshiyama AS (2026). *Artificial intelligence policy worldwide: a comparative analysis*. R. Soc. Open Sci. 13:242234. doi:10.1098/rsos.242234 (CC BY 4.0)
+:::
 
 ## O que é, e desde quando {.smaller}
 
@@ -601,22 +682,43 @@ O text mining dos autores mostrou por que isso importa: bigramas ligados a super
 
 ## Como implementar na prática {.smaller}
 
+::: {.columns}
+::: {.column width="52%"}
 - App em **R Shiny** que monta a declaração automaticamente; código-fonte indicado pelos autores: <https://github.com/szymekdr/AI_reporting>
-- Serve para artigos originais e de revisão, mas também para **comentários, teses, dissertações e trabalhos de disciplina** — no ensino, torna explícito o que exige julgamento humano.
+- Serve para artigos originais e de revisão, mas também para **comentários, teses, dissertações e trabalhos de disciplina**.
 - Os autores tratam a versão atual como **AIdIT 1.0**, aberta a consenso comunitário.
 
 ::: {.bsl-destaque}
-Para orientadores: exigir uma declaração AIdIT na dissertação é a forma mais simples de transformar "não use IA" (inexequível) em "use e documente" (verificável).
+Para orientadores: exigir uma declaração AIdIT na dissertação transforma "não use IA" (inexequível) em "use e documente" (verificável).
+:::
+
+::: {.credito}
+Fig. 7 de Drobniak et al. (2026), Res Integr Peer Rev, doi:10.1186/s41073-026-00230-1. Reproduzida sem alterações sob CC BY-NC-ND 4.0.
+:::
+:::
+::: {.column width="48%"}
+::: {.bsl-fig .bsl-fig-alta}
+![](assets/figs/aidit-fig7.png){fig-alt="Fluxograma do AIdIT: usou IA? Se não, declaração negativa. Se sim, quais sistemas e versões, como foi usado segundo a taxonomia, declaração de conformidade e supervisão, registro de prompts e comentários adicionais."}
+:::
+:::
 :::
 
 ## Outras propostas na mesa {.smaller}
 
-- **Mehta et al. (2026)** — checklist unificado com três domínios: *conceptual contributions*, *linguistic assistance*, *research assistance*, separando em cada um os usos aceitáveis dos problemáticos; gera declaração padronizada com número de referência citável.
-- **DAISY** (Ahmetoglu, Constantinides & Cox, 2026) — formulário estruturado para gerar a declaração; no estudo com 31 autores, declarações feitas com DAISY atenderam a **mais critérios de completude**, e — contra a expectativa — **não reduziram o conforto** dos autores com o que declararam.
-- **Park (2025)** — ferramenta que exige definir a perspectiva de pesquisa e um roteiro com pontos-chave **antes** de qualquer geração de texto, e que **só admite citações fornecidas pelo autor**.
+- **Mehta et al. (2026)** — checklist com três domínios (*conceptual*, *linguistic*, *research assistance*) e declaração padronizada com número de referência citável.
+- **Park (2025)** — exige definir a perspectiva de pesquisa e os pontos-chave **antes** de gerar texto, e **só admite citações fornecidas pelo autor**.
+- **DAISY** (Ahmetoglu et al., 2026) — formulário estruturado, testado com 31 autores:
+
+::: {.bsl-fig .bsl-fig-peq}
+![](assets/figs/daisy-fig1.png){fig-alt="Figura 1 do estudo do DAISY: Fase A, desenho da ferramenta a partir de políticas de editoras, 100 publicações recentes e co-design com 11 participantes; Fase B, estudo com 31 autores; achados-chave: declarações feitas com DAISY foram em média 127 caracteres mais longas e atenderam a mais critérios de completude, e o uso do DAISY não reduziu o conforto dos autores."}
+:::
 
 ::: {.bsl-destaque}
 Convergência das três: **estruturar** a declaração aumenta a qualidade do que é declarado. Campo livre e opcional não funciona.
+:::
+
+::: {.credito}
+Fig. 1 de Ahmetoglu, Constantinides & Cox (2026), CHIWORK '26, doi:10.1145/3808045.3808056, sob CC BY 4.0.
 :::
 
 ## Um modelo pronto para copiar {.smaller}
@@ -669,8 +771,14 @@ Slides, código-fonte e todas as referências deste seminário estão no reposit
 
 - Ahmetoglu Y, Constantinides M, Cox A (2026). *AI Disclosure with DAISY*. CHIWORK '26. doi:10.1145/3808045.3808056
 - Drobniak SM et al. (2026). *A systematic map of generative AI guidelines and reporting in ecology and evolutionary biology: towards the framework of AI disclosure for Improved Transparency (AIdIT)*. Research Integrity and Peer Review. doi:10.1186/s41073-026-00230-1
+- Hilliard A, Gulley A, Kazim E, Koshiyama AS (2026). *Artificial intelligence policy worldwide: a comparative analysis*. R. Soc. Open Sci. 13:242234. doi:10.1098/rsos.242234
 - Kobak D, González-Márquez R, Horvát E-Á, Lause J (2025). *Delving into LLM-assisted writing in biomedical publications through excess vocabulary*. Science Advances. doi:10.1126/sciadv.adt3813
 - Larivière V, Haustein S, Mongeon P (2015). *The Oligopoly of Academic Publishers in the Digital Era*. PLoS ONE 10(6):e0127502. doi:10.1371/journal.pone.0127502
+
+## Referências {.smaller}
+
+**Artigos** (continuação)
+
 - Mehta N et al. (2026). *A call for clarity: a unified checklist for reporting use of large language models in writing scientific manuscripts*. Research Integrity and Peer Review 11:24. doi:10.1186/s41073-026-00212-3
 - Park J (2025). *Towards a transparent and reproducible AI-assisted research paper writing*. Genomics & Informatics 23:26. doi:10.1186/s44342-025-00057-0
 - White RR (2025). *Generative artificial intelligence tools in journal article preparation*. JDS Communications 6:452–457. doi:10.3168/jdsc.2024-0707
@@ -687,12 +795,26 @@ Slides, código-fonte e todas as referências deste seminário estão no reposit
 - Taylor & Francis — <https://authorservices.taylorandfrancis.com/editorial-policies/using-ai-in-your-research-and-manuscript-preparations/>
 - Sage — <https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy>
 - Cambridge University Press — <https://www.cambridge.org/core/services/publishing-ethics/authorship-and-contributorship-journals>
+- Oxford University Press — *Author use of Artificial Intelligence (AI)* e o formulário *AI Use Declaration for Authors and Contributors*
 - Portaria CNPq nº 2.664, de 6 de março de 2026 — DOU 11/03/2026, Seção 1, p. 4
 
-**Dados de submissões**
+## Referências {.smaller}
+
+**Dados de submissões e ensaio**
 
 - *The Scholarly Kitchen* (13/05/2026), dados da plataforma ScholarOne Manuscripts
 - Van Noorden R (2023). *More than 10,000 research papers were retracted in 2023 — a new record*. Nature 624:479–481.
+- Karamanis M (2026). *The machines are fine. I'm worried about us.* <https://ergosphere.blog/posts/the-machines-are-fine/>
+
+**Figuras reaproveitadas**
+
+- Fig. 1 e Fig. 7 de Drobniak et al. (2026) — CC BY-NC-ND 4.0, reproduzidas sem alterações
+- Recorte do resumo gráfico de White (2025) — CC BY 4.0
+- Fig. 1 de Ahmetoglu, Constantinides & Cox (2026) — CC BY 4.0
+
+::: {.fonte}
+Estes slides: © Diogo B. Provete, sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br). As figuras acima mantêm as licenças dos originais.
+:::
 
 ## Declaração de uso de IA nesta apresentação {.smaller}
 
