@@ -22,7 +22,7 @@ Todas as citações literais de políticas e normas foram extraídas das página
 
 ## Roteiro de tempo (40 min)
 
-São 59 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~47 slides para ~38 min**, ou cerca de 48 s por slide — apertado.
+São 62 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~50 slides para ~38 min**, ou cerca de 45 s por slide — apertado de verdade: **ensaie ao cronômetro antes de decidir o que fica.**
 
 | Bloco | Minutos |
 |---|---|
@@ -35,7 +35,9 @@ São 59 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio
 | 5 · Limites | 6 |
 | 6 · AIdIT + síntese | 6 |
 
-**Se o tempo apertar**, estes slides saem sem quebrar o argumento: *O pano de fundo: integridade sob pressão*, *Quem faz o quê*, *Duas a mais que valem a pena conhecer*, *Por que o COPE importa mais que parece*, *Limite 5* e *Outras propostas na mesa*. Cortando os seis, sobram ~41 slides e a palestra respira.
+**Se o tempo apertar**, estes slides saem sem quebrar o argumento: *O pano de fundo: integridade sob pressão*, *Quem faz o quê*, *Duas a mais que valem a pena conhecer*, *Por que o COPE importa mais que parece*, *Limite 5* e *Outras propostas na mesa*. Cortando os seis, sobram ~44 slides.
+
+Os dois slides que **não** deveriam sair, mesmo com o tempo curto, são *O contra-argumento que você vai ouvir* e *A resposta: declarar não é detectar*. São eles que impedem a palestra de virar propaganda do AIdIT — e é a pergunta que alguém da plateia vai fazer de qualquer jeito.
 
 ## Estrutura do repositório
 

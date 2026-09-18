@@ -85,6 +85,22 @@ Dados da plataforma ScholarOne Manuscripts, compilados em *The Scholarly Kitchen
 Mesma fonte (ScholarOne / *The Scholarly Kitchen*, 2026). O autor é explícito: o padrão "é consistente com crescimento legítimo", mas também é "o padrão que se esperaria se parte relevante da alta refletisse submissões de baixo esforço, assistidas por IA".
 :::
 
+## A mesma curva, vista da mesa do editor {.smaller}
+
+No *Information Systems Journal*, os editores relatam que **receber 20 submissões novas por dia virou normal**; a taxa de desk rejection passou de **60%** e a de aceite caiu a **4%**. A conferência ICIS 2026 recebeu **72,6% mais submissões** que a de 2025.
+
+No *FEBS Journal*, o editor-chefe descreve o mesmo quadro do outro lado: o esforço para separar as submissões problemáticas cresceu a ponto de consumir o tempo que deveria ir para a ciência.
+
+::: {.bsl-destaque}
+**Mas cuidado com a inferência.** Os próprios editores do ISJ escrevem que *suspeitam* que boa parte dessas submissões foi feita com IA generativa — é suspeita declarada, não medição. E Jamali et al. (2025), entrevistando 27 editores, encontram outra explicação para a falta de revisores: carga de trabalho acadêmica e universidades que tiraram a revisão por pares dos modelos de alocação de horas.
+:::
+
+A IA generativa não chegou a um sistema saudável. Chegou a um que já estava sob tensão.
+
+::: {.fonte}
+Davison RM et al. (2026). Information Systems Journal. doi:10.1111/isj.70055 · Martin SJ (2026). FEBS J 293:5–9. doi:10.1111/febs.70388 · Jamali HR, Wakeling S, Luca EJ (2025). Learned Publishing 39(1). doi:10.1002/leap.2034
+:::
+
 ## Quanto do texto publicado já passa por LLM? {.smaller}
 
 Kobak et al. (2025) analisaram **mais de 15 milhões de resumos do PubMed (2010–2024)** e mediram a mudança abrupta na frequência de palavras de estilo ("excess vocabulary").
@@ -146,9 +162,10 @@ Existe um **abismo entre princípio e prática**: todo mundo concorda que se dev
 
 - Ter política ajuda, mas pouco: **7% de declaração** em periódicos com política vs. **4%** sem política (χ² = 10,1; gl = 1; p = 0,001).
 - Text mining de **124 documentos** de diretrizes: mediana de **252 palavras** (amplitude 149–11.766), linguagem padronizada, precaucionária, centrada em proibição e responsabilidade — com **orientação operacional mínima** sobre usos aceitáveis e formatos de declaração.
+- Em **ornitologia**, o retrato é o mesmo: dos 20 periódicos de maior impacto, **12 têm política de IA generativa e 8 não têm orientação localizável** — e a área fica atrás de outras disciplinas na formulação dessas políticas.
 
 ::: {.fonte}
-Drobniak et al. (2026), doi:10.1186/s41073-026-00230-1
+Drobniak et al. (2026), doi:10.1186/s41073-026-00230-1 · McClure CJW (2026). *Generative-AI policies vary widely across top ornithology journals*. Ibis 168:1159–1163. doi:10.1111/ibi.70054
 :::
 
 # 1 · Ética {.bsl-secao background-color="#f3eee3"}
@@ -420,6 +437,12 @@ A própria Wiley dá a regra prática:
 Drobniak et al. (2026) confirmaram empiricamente: periódicos da **mesma** editora divergem entre si. Só a Elsevier apareceu com política consistente em todo o portfólio.
 :::
 
+E "ter política" não quer dizer cobertura: analisando **439 periódicos de alto fator de impacto e 363 de FI médio**, Wang & Gong encontraram política de IA para revisão em **83%** dos primeiros e **75%** dos segundos — e registraram mudanças de política **entre março e agosto de 2025**.
+
+::: {.fonte}
+Wang Z, Gong M (2025). *A Cross-Disciplinary Analysis of AI Policies in Academic Peer Review*. Learned Publishing 39(1). doi:10.1002/leap.2035
+:::
+
 # 3 · A Portaria CNPq nº 2.664/2026 {.bsl-secao background-color="#f3eee3"}
 
 ## Antes da portaria: o Brasil regula IA cedo {.smaller}
@@ -538,8 +561,10 @@ Um LLM prediz o próximo token dada a sequência anterior. O texto é **plausív
 Fluência e correção são propriedades **independentes**. O modelo otimiza a primeira. Quem verifica a segunda é você.
 :::
 
+Séamus Martin, editor-chefe do *FEBS Journal*, formula o mesmo ponto de forma mais afiada: o objetivo da IA não é ser acurada — é **parecer** acurada.
+
 ::: {.fonte}
-ACS Nano 17:4091–4093 (2023). doi:10.1021/acsnano.3c01544
+ACS Nano 17:4091–4093 (2023). doi:10.1021/acsnano.3c01544 · Martin SJ (2026). *The FEBS Journal in 2026: safeguarding scientific integrity amid the rise of the machines*. FEBS J 293:5–9. doi:10.1111/febs.70388
 :::
 
 ## Limite 1 — referências inventadas {.smaller}
@@ -731,6 +756,36 @@ Fig. 1 de Ahmetoglu, Constantinides & Cox (2026), CHIWORK '26, doi:10.1145/38080
 Três acréscimos ao modelo da Elsevier: **versão e data**, **quem verificou o quê** (no espírito do MeRIT) e a **negativa explícita de confidencialidade** — que é o que a portaria do CNPq exige e as editoras assumem.
 :::
 
+## O contra-argumento que você vai ouvir {.smaller}
+
+Wang & Gong (2025) analisaram as políticas de IA para revisão por pares de **802 periódicos** e chegaram a uma conclusão incômoda para tudo que acabei de defender:
+
+> "As several studies have discussed, there is no reliable method to effectively identify AI-generated texts. Neither reviewers, editors, nor AI tools can accurately distinguish between AI-generated text and human-generated text. Many journals ask authors or reviewers to declare their AI use, but regrettably, these declarations carry no weight."
+
+E os números de prevalência não fecham entre si: ~38% dos artigos do *JBJS* podem conter conteúdo gerado por IA; ~19% dos acadêmicos numa pesquisa da Wiley admitem ter usado LLM na revisão; no *Journal of Food Science*, mais de 95% dos revisores declararam não ter usado.
+
+> "A series of conflicting survey and research findings indicate that both the use of AI technology and the extent of its adoption remain difficult to assess."
+
+::: {.fonte}
+Wang Z, Gong M (2025). Learned Publishing 39(1). doi:10.1002/leap.2035 (CC BY-NC 4.0). Os números internos são de Callanan et al. (2025), Wiley (2025) e Hartel (2025), conforme citados nesse artigo.
+:::
+
+## A resposta: declarar não é detectar {.smaller}
+
+::: {.bsl-destaque}
+A objeção é boa — e mira no alvo errado. **Declaração nunca foi mecanismo de detecção.** É registro de responsabilidade.
+:::
+
+- Ela **não impede** quem quer fraudar. Nada na revisão por pares impede.
+- Ela **protege quem age de boa-fé**, e dá ao leitor o que precisa para julgar a proveniência do que lê.
+- É exatamente o que fazemos com **conflito de interesses** há décadas: essa declaração também não é verificável, e ninguém propõe abandoná-la por isso.
+
+E há um custo do outro lado, que Byrne et al. (2025) detalham: apertar a triagem para compensar a falta de detecção **prejudica pesquisa legítima**, com risco desproporcional para pesquisadores em início de carreira — e as ferramentas de triagem são pagas e de critérios não divulgados, o que penaliza justamente os periódicos menores e do Sul global.
+
+::: {.fonte}
+Byrne JA, Abalkina A, Christopher J, Soulière MF (2025). *Rethinking Peer Review Using the Swiss Cheese Model to Better Flag Problematic Manuscripts*. Learned Publishing 38(4). doi:10.1002/leap.2021
+:::
+
 ## Síntese: cinco regras {.smaller}
 
 1. **A IA não assina.** Autoria é imputabilidade, e imputabilidade é humana.
@@ -770,6 +825,8 @@ Slides, código-fonte e todas as referências deste seminário estão no reposit
 **Artigos**
 
 - Ahmetoglu Y, Constantinides M, Cox A (2026). *AI Disclosure with DAISY*. CHIWORK '26. doi:10.1145/3808045.3808056
+- Byrne JA, Abalkina A, Christopher J, Soulière MF (2025). *Rethinking Peer Review Using the Swiss Cheese Model to Better Flag Problematic Manuscripts*. Learned Publishing 38(4). doi:10.1002/leap.2021
+- Davison RM et al. (2026). *Research Integrity Matters, But It Is Undermined by Generative AI*. Information Systems Journal. doi:10.1111/isj.70055
 - Drobniak SM et al. (2026). *A systematic map of generative AI guidelines and reporting in ecology and evolutionary biology: towards the framework of AI disclosure for Improved Transparency (AIdIT)*. Research Integrity and Peer Review. doi:10.1186/s41073-026-00230-1
 - Hilliard A, Gulley A, Kazim E, Koshiyama AS (2026). *Artificial intelligence policy worldwide: a comparative analysis*. R. Soc. Open Sci. 13:242234. doi:10.1098/rsos.242234
 - Kobak D, González-Márquez R, Horvát E-Á, Lause J (2025). *Delving into LLM-assisted writing in biomedical publications through excess vocabulary*. Science Advances. doi:10.1126/sciadv.adt3813
@@ -779,8 +836,12 @@ Slides, código-fonte e todas as referências deste seminário estão no reposit
 
 **Artigos** (continuação)
 
+- Jamali HR, Wakeling S, Luca EJ (2025). *Challenges and Strategies in Local Journal Publishing: Perspectives of Australian Journal Editors*. Learned Publishing 39(1). doi:10.1002/leap.2034
+- Martin SJ (2026). *The FEBS Journal in 2026: Safeguarding scientific integrity amid the rise of the machines*. FEBS Journal 293:5–9. doi:10.1111/febs.70388
+- McClure CJW (2026). *Generative-AI policies vary widely across top ornithology journals*. Ibis 168:1159–1163. doi:10.1111/ibi.70054
 - Mehta N et al. (2026). *A call for clarity: a unified checklist for reporting use of large language models in writing scientific manuscripts*. Research Integrity and Peer Review 11:24. doi:10.1186/s41073-026-00212-3
 - Park J (2025). *Towards a transparent and reproducible AI-assisted research paper writing*. Genomics & Informatics 23:26. doi:10.1186/s44342-025-00057-0
+- Wang Z, Gong M (2025). *A Cross-Disciplinary Analysis of AI Policies in Academic Peer Review*. Learned Publishing 39(1). doi:10.1002/leap.2035
 - White RR (2025). *Generative artificial intelligence tools in journal article preparation*. JDS Communications 6:452–457. doi:10.3168/jdsc.2024-0707
 - *Best Practices for Using AI When Writing Scientific Manuscripts* (2023). ACS Nano 17:4091–4093. doi:10.1021/acsnano.3c01544
 
