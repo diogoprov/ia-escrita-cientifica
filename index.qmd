@@ -599,17 +599,50 @@ ACS Nano (2023), doi:10.1021/acsnano.3c01544 · Wiley, *Using AI tools in your r
 
 ## Limite 3 — os detectores não resolvem {.smaller}
 
-Avaliações independentes mostram que as ferramentas de detecção de texto gerado por IA permanecem **inconsistentes e não confiáveis**.
+Weber-Wulff et al. (2023) testaram **14 ferramentas** de detecção — 12 gratuitas, mais Turnitin e PlagiarismCheck:
 
-- Falsos positivos penalizam desproporcionalmente quem **não é falante nativo**.
-- A assinatura medida por Kobak et al. é **estatística e populacional** — serve para descrever a literatura, não para julgar um manuscrito individual.
+::: {.columns}
+::: {.column width="50%"}
+- **Nenhuma** passou de 80% de acurácia; só cinco passaram de 70%.
+- Em texto de IA **editado por humano**, a acurácia caiu para ~42%.
+- Em texto **parafraseado por máquina**, para 26%.
+- **Falsos positivos de 0% a 50%**, conforme a ferramenta.
+:::
+::: {.column width="50%"}
+> "the available detection tools are neither accurate nor reliable and have a main bias towards classifying the output as human-written rather than detecting AI-generated text"
+:::
+:::
 
 ::: {.bsl-destaque}
-A governança do uso de IA **não pode** depender de detecção. Ela depende de **declaração**. É por isso que este é o tema do próximo bloco.
+Os autores recomendam, textualmente, que essas ferramentas **não sejam usadas em contexto acadêmico**.
 :::
 
 ::: {.fonte}
-Drobniak et al. (2026), doi:10.1186/s41073-026-00230-1 (e referências ali citadas)
+Weber-Wulff D, Anohina-Naumeca A, Bjelobaba S, Foltýnek T, Guerrero-Dib J, Popoola O, Šigut P, Waddington L (2023). *Testing of detection tools for AI-generated text*. International Journal for Educational Integrity 19:26. doi:10.1007/s40979-023-00146-z
+:::
+
+## E o erro não é aleatório {.smaller}
+
+Liang et al. (2023) mostraram para onde o erro aponta:
+
+> "Our findings reveal that these detectors consistently misclassify non-native English writing samples as AI-generated, whereas native writing samples are accurately identified."
+
+E, no mesmo estudo, estratégias simples de prompt **atenuam esse viés e driblam os detectores**.
+
+::: {.bsl-destaque}
+Leia isso duas vezes, pensando na sua plateia: a ferramenta falha contra **o pesquisador brasileiro honesto** e passa batido em quem quer burlar. Adotar detecção como política institucional é importar esse viés para dentro de casa.
+:::
+
+O melhor argumento, porém, é o mais curto. A própria OpenAI aposentou o detector que ela mesma lançou, e a nota continua na página original:
+
+> "As of July 20, 2023, the AI classifier is no longer available due to its low rate of accuracy."
+
+::: {.bsl-destaque}
+Por isso a governança do uso de IA **não pode** depender de detecção — depende de **declaração**. É o tema do último bloco.
+:::
+
+::: {.fonte}
+Liang W, Yuksekgonul M, Mao Y, Wu E, Zou J (2023). *GPT detectors are biased against non-native English writers*. Patterns 4(7):100779. doi:10.1016/j.patter.2023.100779 · OpenAI, *New AI classifier for indicating AI-written text* (nota de descontinuação). A assinatura medida por Kobak et al. (2025) é **populacional**: descreve a literatura, não julga um manuscrito.
 :::
 
 ## Limite 4 — confidencialidade e propriedade intelectual {.smaller}
@@ -865,6 +898,11 @@ Slides, código-fonte e todas as referências deste seminário estão no reposit
 
 - *The Scholarly Kitchen* (13/05/2026), dados da plataforma ScholarOne Manuscripts
 - Van Noorden R (2023). *More than 10,000 research papers were retracted in 2023 — a new record*. Nature 624:479–481.
+
+**Detecção**
+
+- Weber-Wulff D et al. (2023). *Testing of detection tools for AI-generated text*. International Journal for Educational Integrity 19:26. doi:10.1007/s40979-023-00146-z
+- Liang W, Yuksekgonul M, Mao Y, Wu E, Zou J (2023). *GPT detectors are biased against non-native English writers*. Patterns 4(7):100779. doi:10.1016/j.patter.2023.100779
 - Karamanis M (2026). *The machines are fine. I'm worried about us.* <https://ergosphere.blog/posts/the-machines-are-fine/>
 
 **Figuras reaproveitadas**

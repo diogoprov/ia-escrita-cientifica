@@ -22,7 +22,7 @@ Todas as citações literais de políticas e normas foram extraídas das página
 
 ## Roteiro de tempo (40 min)
 
-São 62 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~50 slides para ~38 min**, ou cerca de 45 s por slide — apertado de verdade: **ensaie ao cronômetro antes de decidir o que fica.**
+São 63 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~51 slides para ~38 min**, ou cerca de 45 s por slide. **Ensaie ao cronômetro antes de decidir o que fica.**
 
 | Bloco | Minutos |
 |---|---|
@@ -32,7 +32,7 @@ São 62 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio
 | 2 · Editoras | 9 |
 | 3 · Política de IA + CNPq | 6 |
 | 4 · COPE | 2 |
-| 5 · Limites | 6 |
+| 5 · Limites (inclui detecção) | 7 |
 | 6 · AIdIT + síntese | 6 |
 
 **Se o tempo apertar**, estes slides saem sem quebrar o argumento: *O pano de fundo: integridade sob pressão*, *Quem faz o quê*, *Duas a mais que valem a pena conhecer*, *Por que o COPE importa mais que parece*, *Limite 5* e *Outras propostas na mesa*. Cortando os seis, sobram ~44 slides.
