@@ -196,3 +196,21 @@ $code-block-border-color: $bsl-border;
   color: $bsl-muted;
   font-size: 0.5em;
 }
+
+// Slides opcionais — saem na versão de 40 min.
+// Marcador discreto no canto superior direito, visível também no deck publicado.
+.reveal section.opcional::after {
+  content: "✂ opcional";
+  position: absolute;
+  top: -0.35em;
+  right: 0;
+  font-size: 0.4em;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: $bsl-muted-escuro;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+// No modo de impressão/PDF o marcador continua, mas sem interferir no layout
+.reveal.print-pdf section.opcional::after { opacity: 0.45; }

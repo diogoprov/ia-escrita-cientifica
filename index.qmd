@@ -42,7 +42,7 @@ format:
 6. Boas práticas de reporte: o framework AIdIT
 
 ::: {.fonte}
-Slides, código e referências: github.com/diogoprov
+Slides, código e referências: github.com/diogoprov · Os slides marcados com **✂ opcional** no canto superior direito saem na versão de 40 min.
 :::
 
 ## De onde eu falo {.smaller}
@@ -136,7 +136,7 @@ Original: "This excess word analysis suggests that at least 13.5% of 2024 abstra
 Kobak D, González-Márquez R, Horvát E-Á, Lause J. *Delving into LLM-assisted writing in biomedical publications through excess vocabulary*. Science Advances (2025). doi:10.1126/sciadv.adt3813 · preprint: arXiv:2406.07016
 :::
 
-## O pano de fundo: integridade sob pressão {.smaller}
+## O pano de fundo: integridade sob pressão {.smaller .opcional}
 
 - Em 2023, o número de retratações **ultrapassou 10.000 em um único ano** — recorde histórico, puxado por *paper mills* e fraude em revisão por pares.
 - Especialistas em integridade citados pela *Nature* tratam o número como "a ponta do iceberg".
@@ -220,7 +220,7 @@ COPE, *Authorship and AI tools* (posição revisada em 13/02/2023; versão 1 pub
 "Os autores são **integralmente responsáveis** pelo conteúdo do manuscrito, **inclusive pelas partes produzidas por uma ferramenta de IA**, e respondem por qualquer violação da ética em publicação." (COPE)
 :::
 
-## Quem faz o quê {.smaller}
+## Quem faz o quê {.smaller .opcional}
 
 ::: {.columns}
 ::: {.column width="47%"}
@@ -468,7 +468,7 @@ Não há nada de errado em escrever uma carta-resposta clara e educada com ajuda
 <https://authorservices.taylorandfrancis.com/editorial-policies/using-ai-in-your-research-and-manuscript-preparations/> · <https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy>
 :::
 
-## Duas a mais que valem a pena conhecer {.smaller}
+## Duas a mais que valem a pena conhecer {.smaller .opcional}
 
 **Cambridge University Press** — três regras curtas:
 
@@ -601,7 +601,7 @@ Alcance: a exigência vale para **redação do manuscrito, produção de imagens
 COPE, *Authorship and AI tools*: <https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools>
 :::
 
-## Por que o COPE importa mais que parece {.smaller}
+## Por que o COPE importa mais que parece {.smaller .opcional}
 
 - O COPE é a instância a que os editores recorrem quando a política da editora **é omissa** — e ela é omissa com frequência.
 - Em ecologia e evolução, **45% dos periódicos não têm política própria** (Drobniak et al. 2026). Nesses casos, o COPE é o piso de fato.
@@ -645,7 +645,7 @@ E o passo que quase ninguém dá:
 A referência existir não basta. Ela precisa **dizer o que você afirma que ela diz**.
 :::
 
-## Limite 2 — o viés do corpus {.smaller}
+## Limite 2 — o viés do corpus {.smaller .opcional}
 
 - **Sub-representa literatura paga**, super-representa acesso aberto e conteúdo geral da web (Wiley).
 - Tende a **suprimir visões minoritárias** e trabalhos com poucas citações.
@@ -729,7 +729,7 @@ Antes de colar qualquer coisa numa ferramenta, verifique nos termos de uso:
 Wiley (2026); OUP, *Author use of Artificial Intelligence (AI)*; Elsevier, *Generative AI policies for journals*
 :::
 
-## Limite 5 — o que você não percebe que perdeu {.smaller}
+## Limite 5 — o que você não percebe que perdeu {.smaller .opcional}
 
 Sinais de dependência, segundo a própria orientação da Wiley — evite:
 
@@ -831,7 +831,7 @@ Fig. 7 de Drobniak et al. (2026), Res Integr Peer Rev, doi:10.1186/s41073-026-00
 :::
 :::
 
-## Outras propostas na mesa {.smaller}
+## Outras propostas na mesa {.smaller .opcional}
 
 - **Mehta et al. (2026)** — checklist com três domínios (*conceptual*, *linguistic*, *research assistance*) e declaração padronizada com número de referência citável.
 - **Park (2025)** — exige definir a perspectiva de pesquisa e os pontos-chave **antes** de gerar texto, e **só admite citações fornecidas pelo autor**.
@@ -859,7 +859,7 @@ Fig. 1 de Ahmetoglu, Constantinides & Cox (2026), CHIWORK '26, doi:10.1145/38080
 Três acréscimos ao modelo da Elsevier: **versão e data**, **quem verificou o quê** (no espírito do MeRIT) e a **negativa explícita de confidencialidade** — que é o que a portaria do CNPq exige e as editoras assumem.
 :::
 
-## E na tese? Não existe regra — existe boa prática {.smaller}
+## E na tese? Não existe regra — existe boa prática {.smaller .opcional}
 
 **Sejamos claros: não há norma que obrigue declarar uso de IA em tese ou dissertação.** Nem a portaria do CNPq, que fala de pesquisa e publicação, nem os programas, nem a CAPES. O que segue é sugestão minha, não exigência.
 

@@ -26,7 +26,7 @@ São 68 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio
 
 Em 38 minutos de fala isso dá **41 s por slide** — rápido demais para os slides que têm tabela ou citação longa. **A versão completa não cabe em 40 min.** O deck está montado para servir a dois formatos:
 
-**Versão 40 min (~48 slides).** Corte estes oito, que não quebram o argumento:
+**Versão 40 min (~48 slides).** Corte estes oito, que não quebram o argumento. Eles estão marcados no deck com **✂ opcional** no canto superior direito — a marca vem da classe `.opcional` no cabeçalho do slide (`## Título {.smaller .opcional}`), estilizada em `custom.scss`. Para esconder a marca sem mexer no conteúdo, basta comentar a regra `.reveal section.opcional::after`.
 
 - *O pano de fundo: integridade sob pressão* (retratações — a mensagem já está no bloco 0)
 - *Quem faz o quê* (o semáforo cobre)
