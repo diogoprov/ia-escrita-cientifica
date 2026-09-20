@@ -22,22 +22,35 @@ Todas as citações literais de políticas e normas foram extraídas das página
 
 ## Roteiro de tempo (40 min)
 
-São 63 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~51 slides para ~38 min**, ou cerca de 45 s por slide. **Ensaie ao cronômetro antes de decidir o que fica.**
+São 68 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~56 slides**.
 
-| Bloco | Minutos |
+Em 38 minutos de fala isso dá **41 s por slide** — rápido demais para os slides que têm tabela ou citação longa. **A versão completa não cabe em 40 min.** O deck está montado para servir a dois formatos:
+
+**Versão 40 min (~48 slides).** Corte estes oito, que não quebram o argumento:
+
+- *O pano de fundo: integridade sob pressão* (retratações — a mensagem já está no bloco 0)
+- *Quem faz o quê* (o semáforo cobre)
+- *Duas a mais que valem a pena conhecer* (Cambridge e OUP)
+- *Por que o COPE importa mais que parece*
+- *Limite 2 — o viés do corpus* (já aparece no slide de equidade)
+- *Limite 5 — o que você não percebe que perdeu*
+- *Outras propostas na mesa* (Mehta, Park, DAISY)
+- *E na tese? Não existe regra* (mantendo só o *Modelo para tese*)
+
+**Versão 60 min ou aula:** tudo, com discussão.
+
+| Bloco | Minutos (versão 40) |
 |---|---|
-| Abertura + roteiro | 2 |
-| 0 · Cenário | 7 |
-| 1 · Ética | 6 |
-| 2 · Editoras | 9 |
-| 3 · Política de IA + CNPq | 6 |
+| Abertura + de onde eu falo + roteiro | 3 |
+| 0 · Cenário | 6 |
+| 1 · Ética | 5 |
+| 2 · Editoras + os quatro usos | 9 |
+| 3 · Política de IA + CNPq | 5 |
 | 4 · COPE | 2 |
-| 5 · Limites (inclui detecção) | 7 |
-| 6 · AIdIT + síntese | 6 |
+| 5 · Limites (inclui detecção) | 5 |
+| 6 · AIdIT + tese + contra-argumento + síntese | 5 |
 
-**Se o tempo apertar**, estes slides saem sem quebrar o argumento: *O pano de fundo: integridade sob pressão*, *Quem faz o quê*, *Duas a mais que valem a pena conhecer*, *Por que o COPE importa mais que parece*, *Limite 5* e *Outras propostas na mesa*. Cortando os seis, sobram ~44 slides.
-
-Os dois slides que **não** deveriam sair, mesmo com o tempo curto, são *O contra-argumento que você vai ouvir* e *A resposta: declarar não é detectar*. São eles que impedem a palestra de virar propaganda do AIdIT — e é a pergunta que alguém da plateia vai fazer de qualquer jeito.
+Os slides que **não** deveriam sair, mesmo com o tempo curto: *De onde eu falo* (declaração de conflito de interesses), *Os quatro usos que vocês de fato fazem*, *Responder ao parecerista*, *Modelo para tese e dissertação*, e o par *O contra-argumento* / *A resposta*. São eles que tornam a palestra acionável e impedem que ela vire propaganda do AIdIT.
 
 ## Estrutura do repositório
 

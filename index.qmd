@@ -45,6 +45,21 @@ format:
 Slides, código e referências: github.com/diogoprov
 :::
 
+## De onde eu falo {.smaller}
+
+Antes de qualquer coisa, e porque esta palestra é sobre transparência: **eu sou parte do sistema que vou descrever.**
+
+- *Deputy Editor* em tempo integral na **Wiley**
+- *Co-Editor-in-Chief* em **Global Ecology and Biogeography** (Wiley)
+- *Senior Editor* no **Journal of Biogeography** (Wiley)
+- *Assistant Editor* em **Global Change Biology** (Wiley) — faço a triagem inicial, decidindo entre *desk rejection* e envio para revisão
+
+::: {.bsl-destaque}
+Duas consequências que vocês devem levar em conta ao me ouvir. **Primeira:** vou citar bastante a política da Wiley, e tenho vínculo comercial com a Wiley. **Segunda:** quando eu falar do volume de submissões, não é leitura de artigo — é o que chega na minha caixa de entrada todos os dias.
+:::
+
+Julguem o argumento pelas fontes, que estão todas nos slides, e não pelo meu crachá.
+
 # 0 · O cenário {.bsl-secao background-color="#f3eee3"}
 
 ## O volume de submissões explodiu {.smaller}
@@ -95,7 +110,9 @@ No *FEBS Journal*, o editor-chefe descreve o mesmo quadro do outro lado: o esfor
 **Mas cuidado com a inferência.** Os próprios editores do ISJ escrevem que *suspeitam* que boa parte dessas submissões foi feita com IA generativa — é suspeita declarada, não medição. E Jamali et al. (2025), entrevistando 27 editores, encontram outra explicação para a falta de revisores: carga de trabalho acadêmica e universidades que tiraram a revisão por pares dos modelos de alocação de horas.
 :::
 
-A IA generativa não chegou a um sistema saudável. Chegou a um que já estava sob tensão.
+::: {.bsl-destaque}
+**O que eu vejo, na primeira pessoa:** é exatamente esse o quadro nas duas revistas em que faço triagem. O volume subiu, e subiu puxado por manuscritos que chegam prontos, plausíveis e vazios. A IA generativa não chegou a um sistema saudável — chegou a um que já estava sob tensão.
+:::
 
 ::: {.fonte}
 Davison RM et al. (2026). Information Systems Journal. doi:10.1111/isj.70055 · Martin SJ (2026). FEBS J 293:5–9. doi:10.1111/febs.70388 · Jamali HR, Wakeling S, Luca EJ (2025). Learned Publishing 39(1). doi:10.1002/leap.2034
@@ -105,7 +122,11 @@ Davison RM et al. (2026). Information Systems Journal. doi:10.1111/isj.70055 · 
 
 Kobak et al. (2025) analisaram **mais de 15 milhões de resumos do PubMed (2010–2024)** e mediram a mudança abrupta na frequência de palavras de estilo ("excess vocabulary").
 
-> "This excess word analysis suggests that at least 13.5% of 2024 abstracts were processed with LLMs. This lower bound differed across disciplines, countries, and journals, reaching 40% for some subcorpora."
+> "Esta análise de excesso de palavras sugere que **pelo menos 13,5% dos resumos de 2024** passaram por LLMs. Esse limite inferior variou entre disciplinas, países e periódicos, **chegando a 40%** em alguns subcorpora."
+
+::: {.credito}
+Original: "This excess word analysis suggests that at least 13.5% of 2024 abstracts were processed with LLMs. This lower bound differed across disciplines, countries, and journals, reaching 40% for some subcorpora."
+:::
 
 ::: {.bsl-destaque}
 **13,5% é um piso, não uma estimativa central.** E é uma assinatura *estilística* — não é uma acusação de má conduta.
@@ -178,7 +199,11 @@ Não é uma questão de mérito intelectual. É uma questão de **imputabilidade
 - Autoria implica **declarar (ou negar) conflitos de interesse**.
 - Autoria implica **assinar cessão de direitos e licenças**.
 
-> "AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements." — COPE
+> "Ferramentas de IA não podem atender aos requisitos de autoria porque **não podem se responsabilizar** pelo trabalho submetido. Por não serem entidades jurídicas, **não podem declarar** a existência ou ausência de conflitos de interesse, **nem gerir** direitos autorais e acordos de licenciamento." — COPE
+
+::: {.credito}
+Original: "AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements."
+:::
 
 ::: {.fonte}
 COPE, *Authorship and AI tools* (posição revisada em 13/02/2023; versão 1 publicada em 20/08/2024): <https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools>
@@ -192,7 +217,7 @@ COPE, *Authorship and AI tools* (posição revisada em 13/02/2023; versão 1 pub
 4. **Confidencialidade** — manuscrito sob revisão e dados não publicados não são seus para alimentar um modelo de terceiros.
 
 ::: {.bsl-destaque}
-"Authors are fully responsible for the content of their manuscript, even those parts produced by an AI tool, and are thus liable for any breach of publication ethics." (COPE)
+"Os autores são **integralmente responsáveis** pelo conteúdo do manuscrito, **inclusive pelas partes produzidas por uma ferramenta de IA**, e respondem por qualquer violação da ética em publicação." (COPE)
 :::
 
 ## Quem faz o quê {.smaller}
@@ -226,7 +251,11 @@ Recorte do resumo gráfico de White (2025), JDS Communications, doi:10.3168/jdsc
 
 **Contra o uso acrítico:** as ferramentas herdam e amplificam vieses do corpus.
 
-> "AI Technologies do not have access to up-to-date subscription or paywalled journal content by default. As a result, they may overrepresent open access literature and general web content while underrepresenting research published in hybrid and subscription journals." — Wiley
+> "As tecnologias de IA não têm acesso, por padrão, a conteúdo de periódicos por assinatura ou atualizado atrás de paywall. Em consequência, podem **super-representar a literatura de acesso aberto** e o conteúdo geral da web, e **sub-representar** a pesquisa publicada em periódicos híbridos e de assinatura." — Wiley
+
+::: {.credito}
+Original: "AI Technologies do not have access to up-to-date subscription or paywalled journal content by default. As a result, they may overrepresent open access literature and general web content while underrepresenting research published in hybrid and subscription journals."
+:::
 
 ::: {.bsl-destaque}
 Para nós, no Sul global: a ferramenta que derruba a barreira do idioma pode, ao mesmo tempo, **estreitar a literatura que você enxerga**.
@@ -238,7 +267,11 @@ Wiley, *Using AI tools in your research* (2026). · Park J. *Towards a transpare
 
 ## O custo invisível: o treinamento de quem está começando {.smaller}
 
-> Um LLM "can be used to write and replace critical thinking and thorough literature reviews to the detriment of the user. In the case of students, the writing of their first manuscripts is a transformative training experience. Over-reliance on these language bots deprives them of this opportunity, limiting their intellectual growth and confidence."
+> Um LLM "pode ser usado para escrever e **substituir o pensamento crítico** e a revisão minuciosa da literatura, em prejuízo do próprio usuário. No caso dos estudantes, escrever os primeiros manuscritos é uma **experiência formativa transformadora**. A dependência excessiva desses robôs de linguagem os priva dessa oportunidade, limitando seu crescimento intelectual e sua confiança."
+
+::: {.credito}
+Original: "[...] can be used to write and replace critical thinking and thorough literature reviews to the detriment of the user. In the case of students, the writing of their first manuscripts is a transformative training experience. Over-reliance on these language bots deprives them of this opportunity, limiting their intellectual growth and confidence."
+:::
 
 ::: {.bsl-destaque}
 Escrever o primeiro artigo **é** o método de formação. Terceirizar essa etapa não economiza tempo do aluno — economiza a formação dele.
@@ -388,6 +421,35 @@ Wiley, *Using AI tools in your research* (2026): <https://www.wiley.com/publishi
 ::: {.fonte}
 Nature Portfolio, *Artificial Intelligence (AI)*: <https://www.nature.com/nature-portfolio/editorial-policies/ai>
 :::
+
+## Os quatro usos que vocês de fato fazem {.smaller}
+
+Aplicando o semáforo da Springer Nature aos usos reais — e cruzando com a portaria do CNPq:
+
+| O que você faz | Semáforo SN | Declara? |
+|---|---|---|
+| **Traduzir ou polir o inglês** do texto que você escreveu | [Verde]{.sem-verde} — "polir ou refinar a linguagem" | Editoras: em geral dispensam. **CNPq: sim** — a alínea (c) não abre exceção |
+| **Reescrever/expandir a Discussão** a partir do seu rascunho | [Âmbar]{.sem-ambar} — "copidesque extensivo" | **Sim**, em Métodos. Se o argumento veio do modelo e você o apresenta como seu, vira [vermelho]{.sem-vermelho} |
+| **Escrever ou depurar código em R** para análise e figuras | [Verde]{.sem-verde} a [âmbar]{.sem-ambar} — "limpeza de dados"; "recomendar testes estatísticos" | **Sim** — o CNPq cita "análise de dados" nominalmente. E você tem de saber defender a escolha do modelo |
+| **Responder ao parecerista** | [Verde]{.sem-verde} — "traduzir ou clarificar comentários de revisor" | Sim, se foi além da linguagem |
+
+::: {.bsl-destaque}
+A linha que separa tudo isso é uma só: **a IA pode trabalhar sobre o que você já pensou; não pode pensar no seu lugar.**
+:::
+
+## Responder ao parecerista: o caso mais delicado {.smaller}
+
+É o uso mais comum entre alunos e o que mais gera medo. Minha posição, como editor:
+
+- **Revisar a sua carta-resposta** — clareza, tom, inglês — está OK. É o mesmo que polir qualquer texto seu.
+- **Entender o que o revisor quis dizer** também está OK: o semáforo da Springer Nature põe "traduzir ou clarificar comentários de revisor" no verde.
+- **Não confunda com delegar a revisão.** Gerar o parecer com IA é [vermelho]{.sem-vermelho} em todas as políticas, e a portaria do CNPq **veda** inserir projeto de terceiro em IAG para elaborar parecer.
+
+::: {.bsl-destaque}
+**A zona cinza honesta:** o parecer que você recebeu foi escrito por outra pessoa e muitos periódicos o tratam como confidencial. Não existe regra consolidada sobre colar um parecer inteiro numa ferramenta pública. Na dúvida, trabalhe sobre **a sua resposta**, não sobre o texto do revisor — e, se precisar do parecer, use ferramenta com opção de não-treinamento.
+:::
+
+Não há nada de errado em escrever uma carta-resposta clara e educada com ajuda. O que não pode é **prometer no *rebuttal* uma análise que você não fez**.
 
 ## Taylor & Francis e Sage: o que muda {.smaller}
 
@@ -609,7 +671,11 @@ Weber-Wulff et al. (2023) testaram **14 ferramentas** de detecção — 12 gratu
 - **Falsos positivos de 0% a 50%**, conforme a ferramenta.
 :::
 ::: {.column width="50%"}
-> "the available detection tools are neither accurate nor reliable and have a main bias towards classifying the output as human-written rather than detecting AI-generated text"
+> "as ferramentas de detecção disponíveis **não são nem acuradas nem confiáveis** e têm um viés principal de classificar a saída como escrita por humano, em vez de detectar texto gerado por IA"
+
+::: {.credito}
+Original: "the available detection tools are neither accurate nor reliable and have a main bias towards classifying the output as human-written rather than detecting AI-generated text"
+:::
 :::
 :::
 
@@ -625,7 +691,11 @@ Weber-Wulff D, Anohina-Naumeca A, Bjelobaba S, Foltýnek T, Guerrero-Dib J, Popo
 
 Liang et al. (2023) mostraram para onde o erro aponta:
 
-> "Our findings reveal that these detectors consistently misclassify non-native English writing samples as AI-generated, whereas native writing samples are accurately identified."
+> "Nossos resultados revelam que esses detectores **classificam erroneamente, de forma consistente, amostras de escrita de não-nativos de inglês como geradas por IA**, ao passo que amostras de nativos são identificadas corretamente."
+
+::: {.credito}
+Original: "Our findings reveal that these detectors consistently misclassify non-native English writing samples as AI-generated, whereas native writing samples are accurately identified."
+:::
 
 E, no mesmo estudo, estratégias simples de prompt **atenuam esse viés e driblam os detectores**.
 
@@ -635,7 +705,7 @@ Leia isso duas vezes, pensando na sua plateia: a ferramenta falha contra **o pes
 
 O melhor argumento, porém, é o mais curto. A própria OpenAI aposentou o detector que ela mesma lançou, e a nota continua na página original:
 
-> "As of July 20, 2023, the AI classifier is no longer available due to its low rate of accuracy."
+> "Desde 20 de julho de 2023, o classificador de IA **não está mais disponível, devido à sua baixa taxa de acurácia**." <br><span style="font-size:.72em;opacity:.7">Original: "As of July 20, 2023, the AI classifier is no longer available due to its low rate of accuracy."</span>
 
 ::: {.bsl-destaque}
 Por isso a governança do uso de IA **não pode** depender de detecção — depende de **declaração**. É o tema do último bloco.
@@ -789,11 +859,51 @@ Fig. 1 de Ahmetoglu, Constantinides & Cox (2026), CHIWORK '26, doi:10.1145/38080
 Três acréscimos ao modelo da Elsevier: **versão e data**, **quem verificou o quê** (no espírito do MeRIT) e a **negativa explícita de confidencialidade** — que é o que a portaria do CNPq exige e as editoras assumem.
 :::
 
+## E na tese? Não existe regra — existe boa prática {.smaller}
+
+**Sejamos claros: não há norma que obrigue declarar uso de IA em tese ou dissertação.** Nem a portaria do CNPq, que fala de pesquisa e publicação, nem os programas, nem a CAPES. O que segue é sugestão minha, não exigência.
+
+Mas os autores do AIdIT desenharam o framework justamente para isso:
+
+> "a estrutura do framework o torna particularmente adequado a contextos de ensino superior, incluindo **teses de bacharelado e mestrado, dissertações de doutorado, trabalhos de disciplina** e aprendizagem baseada em projetos."
+
+::: {.bsl-destaque}
+Para orientadores: exigir a declaração converte "não use IA" — que é inexequível e todo mundo sabe — em **"use e documente"**, que é verificável e ensinável. E protege o aluno numa arguição.
+:::
+
+::: {.credito}
+Original: "the framework's structure makes it particularly suitable for higher education contexts, including bachelor's and master's theses, doctoral dissertations, coursework, and project-based learning." — Drobniak et al. (2026), doi:10.1186/s41073-026-00230-1
+:::
+
+## Modelo para tese e dissertação {.smaller}
+
+Sugestão de seção, logo após os agradecimentos ou no final do capítulo de métodos geral:
+
+> **Declaração de uso de inteligência artificial generativa**
+>
+> Na preparação desta [dissertação/tese] foram utilizadas as seguintes ferramentas de IA generativa: *[ferramenta, versão, período]*.
+>
+> **Etapas e finalidade:** *[p.ex. Redação — refino de linguagem e correção gramatical nos Capítulos 2 e 3; Análise formal — geração e depuração de código em R para as Figs. 2.1–2.4; Curadoria de dados — padronização de nomes taxonômicos]*.
+>
+> **Etapas sem uso de IA:** *[p.ex. concepção do problema, desenho amostral, coleta de campo, interpretação dos resultados e conclusões]*.
+>
+> **Verificação e supervisão:** todas as saídas foram conferidas por *[iniciais do discente]* contra *[dados brutos, fontes primárias, execução do código]* e revisadas por *[iniciais do orientador]*. A responsabilidade pelo conteúdo é integralmente do(a) autor(a).
+>
+> Nenhum manuscrito, projeto ou dado não publicado de terceiros foi inserido em ferramentas de IA generativa.
+
+::: {.bsl-destaque}
+Repare no que faz esse modelo funcionar: ele declara **onde não houve uso** tanto quanto onde houve. É isso que dá à banca o que avaliar.
+:::
+
 ## O contra-argumento que você vai ouvir {.smaller}
 
 Wang & Gong (2025) analisaram as políticas de IA para revisão por pares de **802 periódicos** e chegaram a uma conclusão incômoda para tudo que acabei de defender:
 
-> "As several studies have discussed, there is no reliable method to effectively identify AI-generated texts. Neither reviewers, editors, nor AI tools can accurately distinguish between AI-generated text and human-generated text. Many journals ask authors or reviewers to declare their AI use, but regrettably, these declarations carry no weight."
+> "Como vários estudos discutiram, **não há método confiável** para identificar com eficácia textos gerados por IA. **Nem revisores, nem editores, nem ferramentas de IA** conseguem distinguir com acurácia texto gerado por IA de texto gerado por humano. Muitos periódicos pedem que autores ou revisores declarem seu uso de IA mas, lamentavelmente, **essas declarações não têm peso**."
+
+::: {.credito}
+Original: "As several studies have discussed, there is no reliable method to effectively identify AI-generated texts. Neither reviewers, editors, nor AI tools can accurately distinguish between AI-generated text and human-generated text. Many journals ask authors or reviewers to declare their AI use, but regrettably, these declarations carry no weight."
+:::
 
 E os números de prevalência não fecham entre si: ~38% dos artigos do *JBJS* podem conter conteúdo gerado por IA; ~19% dos acadêmicos numa pesquisa da Wiley admitem ter usado LLM na revisão; no *Journal of Food Science*, mais de 95% dos revisores declararam não ter usado.
 
