@@ -22,11 +22,11 @@ Todas as citações literais de políticas e normas foram extraídas das página
 
 ## Roteiro de tempo (40 min)
 
-São 68 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~56 slides**.
+São 70 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~58 slides**.
 
 Em 38 minutos de fala isso dá **41 s por slide** — rápido demais para os slides que têm tabela ou citação longa. **A versão completa não cabe em 40 min.** O deck está montado para servir a dois formatos:
 
-**Versão 40 min (~48 slides).** Corte estes oito, que não quebram o argumento. Eles estão marcados no deck com **✂ opcional** no canto superior direito — a marca vem da classe `.opcional` no cabeçalho do slide (`## Título {.smaller .opcional}`), estilizada em `custom.scss`. Para esconder a marca sem mexer no conteúdo, basta comentar a regra `.reveal section.opcional::after`.
+**Versão 40 min (~49 slides).** Corte estes nove, que não quebram o argumento. Eles estão marcados no deck com **✂ opcional** no canto superior direito — a marca vem da classe `.opcional` no cabeçalho do slide (`## Título {.smaller .opcional}`), estilizada em `custom.scss`. Para esconder a marca sem mexer no conteúdo, basta comentar a regra `.reveal section.opcional::after`.
 
 - *O pano de fundo: integridade sob pressão* (retratações — a mensagem já está no bloco 0)
 - *Quem faz o quê* (o semáforo cobre)
@@ -34,17 +34,34 @@ Em 38 minutos de fala isso dá **41 s por slide** — rápido demais para os sli
 - *Por que o COPE importa mais que parece*
 - *Limite 2 — o viés do corpus* (já aparece no slide de equidade)
 - *Limite 5 — o que você não percebe que perdeu*
+- *O que esse caso ensina* (a crítica ao mecanismo do *Reviews in Aquaculture*; o slide anterior já entrega a regra)
 - *Outras propostas na mesa* (Mehta, Park, DAISY)
 - *E na tese? Não existe regra* (mantendo só o *Modelo para tese*)
 
 **Versão 60 min ou aula:** tudo, com discussão.
+
+## Onde esta palestra foi/será dada
+
+- **Outubro de 2026** — reunião anual do PPG em Biologia Animal, UFMS, Campo Grande
+- **Dezembro de 2026** — UNILA, Foz do Iguaçu
+
+O slide de título **não traz data**: `date: today` imprimiria a data do render, que fica errada
+na segunda apresentação, e qualquer texto livre no campo `date` faz o Quarto imprimir
+*"Invalid Date"*. O local e a data são ditos em voz alta e ficam registrados aqui e em
+[provetelab.org/talks.html](https://provetelab.org/talks.html).
+
+**Para a UNILA, vale considerar:** o público de uma universidade de integração
+latino-americana tende a ser mais diverso em língua materna, com hispanofalantes.
+O slide *O problema de equidade tem dois lados* e o argumento de barreira linguística
+(Amano et al. 2023) ganham peso ali — vale demorar mais nesses e menos na Portaria do CNPq,
+que é regra brasileira e não se aplica a parte da audiência.
 
 | Bloco | Minutos (versão 40) |
 |---|---|
 | Abertura + de onde eu falo + roteiro | 3 |
 | 0 · Cenário | 6 |
 | 1 · Ética | 5 |
-| 2 · Editoras + os quatro usos | 9 |
+| 2 · Editoras + os quatro usos + o contraexemplo | 10 |
 | 3 · Política de IA + CNPq | 5 |
 | 4 · COPE | 2 |
 | 5 · Limites (inclui detecção) | 5 |

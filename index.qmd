@@ -3,8 +3,6 @@ title: "IA na redação científica"
 subtitle: "Ética, regras editoriais e boas práticas de reporte"
 author: "Diogo B. Provete"
 institute: "Instituto de Biociências, UFMS · Biodiversity Synthesis Lab"
-date: today
-date-format: "D [de] MMMM [de] YYYY"
 lang: pt-BR
 format:
   revealjs:
@@ -486,6 +484,48 @@ Formulário da OUP — *AI Use Declaration for Authors and Contributors*: [link 
 <https://www.cambridge.org/core/services/publishing-ethics/authorship-and-contributorship-journals> · OUP, *Author use of Artificial Intelligence (AI)*
 :::
 
+## Um periódico que escreveu a sua própria regra {.smaller}
+
+Tudo o que vimos até aqui é política **de editora**, herdada pelo periódico. O editorial de julho de 2026 do *Reviews in Aquaculture* é o contraexemplo: uma regra escrita para um problema específico daquele periódico.
+
+**O diagnóstico:**
+
+> "We have started to notice a pattern that concerns us: individual authors publishing a striking number of review articles in a single year, often spanning a remarkably wide range of topics. […] Either AI is being used to manufacture volume in place of genuine synthesis, with a named author contributing little beyond prompting and light editing. Or a large, uncredited group of collaborators is doing the substantive work behind what is presented as a small number of individual names. **Neither is a victimless shortcut.**"
+
+**O mecanismo:**
+
+> "This is part of why *Reviews in Aquaculture* has set **minimum eligibility criteria for authorship: a minimum number of original, primary research articles on the same topic as the proposed review.** This is our mechanism for guaranteeing that authorship reflects real, direct experience."
+
+::: {.bsl-destaque}
+Repare no que a regra faz: ela **não tenta detectar IA**. Ela exige evidência de experiência direta — e essa, ao contrário do uso de IA, é verificável.
+:::
+
+## O que esse caso ensina {.smaller .opcional}
+
+::: {.columns}
+::: {.column width="52%"}
+**A favor**
+
+- Ataca o **efeito** (autoria sem contribuição), não a ferramenta. Sobrevive à próxima versão do modelo.
+- É **verificável**: conta artigos primários, não estima intenção.
+- Vem com a ressalva honesta: *"We do not yet have a formal threshold for submission frequency, but we watch for it. Unusually rapid or repeated submissions get a closer look."*
+:::
+::: {.column width="48%"}
+**O custo, que é real**
+
+- Fecha a porta para quem tem **menos histórico publicado** — início de carreira, e quem vem de instituição com menos estrutura.
+- Uma revisão excelente escrita por quem leu tudo e publicou pouco **não passa** por esse critério.
+:::
+:::
+
+::: {.bsl-alerta}
+Não existe mecanismo sem custo distributivo. O que dá para exigir é que o custo seja **declarado** — e aqui ele é: o editorial diz para que serve a regra e admite o que ainda não tem.
+:::
+
+::: {.fonte}
+Turchini GM (2026). *Can AI Write Your Next Review? Yes. Does That Make Real Review Articles Redundant? No*. Reviews in Aquaculture 18:e70196. [doi:10.1111/raq.70196](https://doi.org/10.1111/raq.70196) · O padrão de hiperprodutividade que o editorial cita: Ioannidis JPA, Klavans R, Boyack KW (2018). *Thousands of scientists publish a paper every five days*. Nature 561:167–169. [doi:10.1038/d41586-018-06185-8](https://doi.org/10.1038/d41586-018-06185-8)
+:::
+
 ## O que fazer quando as políticas conflitam {.smaller}
 
 A própria Wiley dá a regra prática:
@@ -777,6 +817,14 @@ AIdIT = **AI disclosure for Improved Transparency** (Drobniak et al. 2026).
 
 ::: {.bsl-destaque}
 "Rather than asking **whether** AI was used, the framework asks **how** it was used (e.g. generation, refinement, comparison) and **where** it influenced the research process."
+:::
+
+E o *onde* tem um caso que a regra de bolso não cobre: **artigos de revisão não têm seção de Métodos.** Um editor resolveu assim, explicando o raciocínio:
+
+> "Strictly speaking, the right place for this kind of disclosure is a **Materials and Methods** section, since AI is a tool, and that is where the details of tools are conventionally reported. Because reviews typically have no M&M section, we currently ask for this disclosure **at the end of the article** instead."
+
+::: {.fonte}
+Turchini GM (2026). Reviews in Aquaculture 18:e70196. [doi:10.1111/raq.70196](https://doi.org/10.1111/raq.70196) — o próprio editorial traz a declaração de uso de IA ao final, no formato que propõe.
 :::
 
 ## A taxonomia: estágio × tipo de uso {.smaller}
