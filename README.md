@@ -22,11 +22,11 @@ Todas as citações literais de políticas e normas foram extraídas das página
 
 ## Roteiro de tempo (40 min)
 
-São 70 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~58 slides**.
+São 71 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~59 slides**.
 
 Em 38 minutos de fala isso dá **41 s por slide** — rápido demais para os slides que têm tabela ou citação longa. **A versão completa não cabe em 40 min.** O deck está montado para servir a dois formatos:
 
-**Versão 40 min (~49 slides).** Corte estes nove, que não quebram o argumento. Eles estão marcados no deck com **✂ opcional** no canto superior direito — a marca vem da classe `.opcional` no cabeçalho do slide (`## Título {.smaller .opcional}`), estilizada em `custom.scss`. Para esconder a marca sem mexer no conteúdo, basta comentar a regra `.reveal section.opcional::after`.
+**Versão 40 min (~50 slides).** Corte estes nove, que não quebram o argumento. Eles estão marcados no deck com **✂ opcional** no canto superior direito — a marca vem da classe `.opcional` no cabeçalho do slide (`## Título {.smaller .opcional}`), estilizada em `custom.scss`. Para esconder a marca sem mexer no conteúdo, basta comentar a regra `.reveal section.opcional::after`.
 
 - *O pano de fundo: integridade sob pressão* (retratações — a mensagem já está no bloco 0)
 - *Quem faz o quê* (o semáforo cobre)
@@ -64,10 +64,10 @@ que é regra brasileira e não se aplica a parte da audiência.
 | 2 · Editoras + os quatro usos + o contraexemplo | 10 |
 | 3 · Política de IA + CNPq | 5 |
 | 4 · COPE | 2 |
-| 5 · Limites (inclui detecção) | 5 |
+| 5 · Mapa dos termos + limites (inclui detecção) | 6 |
 | 6 · AIdIT + tese + contra-argumento + síntese | 5 |
 
-Os slides que **não** deveriam sair, mesmo com o tempo curto: *De onde eu falo* (declaração de conflito de interesses), *Os quatro usos que vocês de fato fazem*, *Responder ao parecerista*, *Modelo para tese e dissertação*, e o par *O contra-argumento* / *A resposta*. São eles que tornam a palestra acionável e impedem que ela vire propaganda do AIdIT.
+Os slides que **não** deveriam sair, mesmo com o tempo curto: *De onde eu falo* (declaração de conflito de interesses), *Antes de falar de limites: o mapa dos termos* (a plateia usa "IA", "LLM" e "ChatGPT" como sinônimos; sem o mapa, o bloco 5 inteiro fica ambíguo), *Os quatro usos que vocês de fato fazem*, *Responder ao parecerista*, *Modelo para tese e dissertação*, e o par *O contra-argumento* / *A resposta*. São eles que tornam a palestra acionável e impedem que ela vire propaganda do AIdIT.
 
 ## Estrutura do repositório
 

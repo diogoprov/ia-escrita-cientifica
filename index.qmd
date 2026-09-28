@@ -653,6 +653,55 @@ Regra de bolso quando o periódico não diz nada: **declare em Métodos, nomeie 
 
 # 5 · Limites dos LLMs {.bsl-secao background-color="#f3eee3"}
 
+## Antes de falar de limites: o mapa dos termos {.smaller}
+
+```{=html}
+<svg viewBox="0 0 1120 430" width="100%" style="max-height:420px" role="img"
+     aria-label="Diagrama de elipses aninhadas: inteligência artificial contém aprendizado de máquina, que contém redes neurais, que contêm aprendizado profundo, que contém a IA generativa, que contém os grandes modelos de linguagem.">
+  <ellipse cx="285" cy="215" rx="270" ry="195" fill="#1c6e8c" fill-opacity="0.10" stroke="#1c6e8c" stroke-width="1.5"/>
+  <ellipse cx="285" cy="232" rx="238" ry="168" fill="#a8710a" fill-opacity="0.12" stroke="#a8710a" stroke-width="1.5"/>
+  <ellipse cx="285" cy="249" rx="206" ry="141" fill="#a32f2f" fill-opacity="0.11" stroke="#a32f2f" stroke-width="1.5"/>
+  <ellipse cx="285" cy="266" rx="174" ry="114" fill="#6c757d" fill-opacity="0.16" stroke="#59616b" stroke-width="1.5"/>
+  <ellipse cx="285" cy="283" rx="142" ry="87"  fill="#2f6f3e" fill-opacity="0.16" stroke="#2f6f3e" stroke-width="1.5"/>
+  <ellipse cx="285" cy="300" rx="105" ry="62"  fill="#e8b93a" fill-opacity="0.38" stroke="#a8710a" stroke-width="1.5"/>
+
+  <text x="285" y="50"  text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="600" fill="#144f64">Inteligência artificial</text>
+  <text x="285" y="94"  text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="600" fill="#8a5c08">Aprendizado de máquina</text>
+  <text x="285" y="138" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="600" fill="#a32f2f">Redes neurais</text>
+  <text x="285" y="182" text-anchor="middle" font-family="sans-serif" font-size="14.5" font-weight="600" fill="#3f4750">Aprendizado profundo</text>
+  <text x="285" y="226" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#2f6f3e">IA generativa</text>
+  <text x="285" y="272" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="600" fill="#7a4f06">LLM</text>
+  <text x="285" y="294" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#7a4f06">ChatGPT · Claude · Gemini</text>
+
+  <g font-family="sans-serif" font-size="14.5" fill="#2d3748">
+    <text x="590" y="52"><tspan font-weight="600" fill="#144f64">Inteligência artificial</tspan> — guarda-chuva, desde 1956:</text>
+    <text x="590" y="74">qualquer sistema que faça o que associamos à cognição.</text>
+
+    <text x="590" y="118"><tspan font-weight="600" fill="#8a5c08">Aprendizado de máquina</tspan> — ajusta parâmetros a partir</text>
+    <text x="590" y="140">de dados, em vez de seguir regras escritas à mão.</text>
+    <text x="590" y="162" font-size="13.5" fill="#a32f2f">A sua regressão logística está aqui dentro.</text>
+
+    <text x="590" y="206"><tspan font-weight="600" fill="#a32f2f">Redes neurais</tspan> — família de modelos com camadas de</text>
+    <text x="590" y="228">unidades conectadas. <tspan font-weight="600" fill="#3f4750">Aprendizado profundo</tspan> é rede</text>
+    <text x="590" y="250">neural com muitas camadas.</text>
+
+    <text x="590" y="294"><tspan font-weight="600" fill="#2f6f3e">IA generativa</tspan> — produz conteúdo novo em vez de</text>
+    <text x="590" y="316">atribuir um rótulo ou prever um número.</text>
+
+    <text x="590" y="360"><tspan font-weight="600" fill="#7a4f06">LLM</tspan> — modelo generativo treinado para prever o próximo</text>
+    <text x="590" y="382">token em texto. ChatGPT e afins são <tspan font-style="italic">interfaces</tspan> sobre LLMs.</text>
+  </g>
+</svg>
+```
+
+::: {.bsl-destaque}
+**Cuidado com o que o diagrama sugere.** O aninhamento é uma aproximação didática, não uma taxonomia estrita: modelos generativos existem desde antes do aprendizado profundo — mistura de gaussianas, modelos ocultos de Markov e n-gramas geram dados e não são redes neurais. O que é verdade é que a **IA generativa de hoje** é construída sobre aprendizado profundo.
+:::
+
+::: {.fonte}
+Diagrama original, redesenhado para estes slides · CC BY 4.0. Esquemas aninhados desse tipo circulam amplamente na divulgação; este não reproduz nenhum deles.
+:::
+
 ## O que a máquina de fato faz {.smaller}
 
 Um LLM prediz o próximo token dada a sequência anterior. O texto é **plausível por construção**, não verdadeiro por construção.
