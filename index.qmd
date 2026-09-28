@@ -134,6 +134,26 @@ Original: "This excess word analysis suggests that at least 13.5% of 2024 abstra
 Kobak D, González-Márquez R, Horvát E-Á, Lause J. *Delving into LLM-assisted writing in biomedical publications through excess vocabulary*. Science Advances (2025). doi:10.1126/sciadv.adt3813 · preprint: arXiv:2406.07016
 :::
 
+## Três estudos depois do Kobak {.smaller}
+
+| Estudo | O que mediu | Achado central |
+|---|---|---|
+| **Kousha & Thelwall (2026)** | 12 termos associados a LLM em **seis bases**; 2,4 M de **textos completos** do PMC | *delve* **+1.500%**, *underscore* **+1.000%**, *intricate* **+700%** entre 2022 e 2024. Crescimento muito maior em STEM que em humanidades |
+| **Siler (2026)** | **7,3 milhões** de artigos publicados (2020–2025), corpus de 228 palavras-foco | de **12% em 2023** para **~57% em 2025** dos artigos com evidência de influência de LLM |
+| **Bao et al. (2025)** | **823.798** resumos do arXiv | vocabulário mais rico e sintaxe mais simples — mas **coesão e legibilidade pioraram** |
+
+::: {.bsl-destaque}
+Duas coisas mudam em relação ao slide anterior. **A escala:** não é mais um piso num único banco de resumos — é a mesma assinatura em seis bases e no **texto completo**. **A pergunta:** deixou de ser *quanto* se usa e passou a ser *o que mudou* no texto.
+:::
+
+E a ressalva que os próprios autores fazem, que vale para os quatro estudos:
+
+> "the results do not provide direct causal evidence and cannot distinguish between LLM-generated text, LLM-edited text, or broader adoption of LLM-associated writing styles" — Kousha & Thelwall (2026)
+
+::: {.fonte}
+Kousha K, Thelwall M (2026). *How much are LLMs changing the language of academic papers after ChatGPT? A multi-database and full text analysis*. Scientometrics. [doi:10.1007/s11192-026-05601-5](https://doi.org/10.1007/s11192-026-05601-5) · Siler K (2026). *The diffusion of large language models in published academic articles*. PNAS 123(22):e2605754123. [doi:10.1073/pnas.2605754123](https://doi.org/10.1073/pnas.2605754123) · Bao T, Zhao Y, Mao J, Zhang C (2025). *Examining linguistic shifts in academic writing before and after the launch of ChatGPT*. Scientometrics 130:3597–3627. [doi:10.1007/s11192-025-05341-y](https://doi.org/10.1007/s11192-025-05341-y)
+:::
+
 ## O pano de fundo: integridade sob pressão {.smaller .opcional}
 
 - Em 2023, o número de retratações **ultrapassou 10.000 em um único ano** — recorde histórico, puxado por *paper mills* e fraude em revisão por pares.
@@ -254,6 +274,8 @@ Recorte do resumo gráfico de White (2025), JDS Communications, doi:10.3168/jdsc
 ::: {.credito}
 Original: "AI Technologies do not have access to up-to-date subscription or paywalled journal content by default. As a result, they may overrepresent open access literature and general web content while underrepresenting research published in hybrid and subscription journals."
 :::
+
+**E agora isso está medido.** Siler (2026): a adoção "is pervasive but socially stratified" — instituições de **menor** ranking adotam mais que as de elite. Bao et al. (2025) chegam ao mesmo por outro caminho: "scholars with weaker English proficiency were more likely to use the LLMs". **Quem mais usa é quem mais precisava** — e o preço aparece na mesma medida: "a significant decrease in cohesion and readability".
 
 ::: {.bsl-destaque}
 Para nós, no Sul global: a ferramenta que derruba a barreira do idioma pode, ao mesmo tempo, **estreitar a literatura que você enxerga**.

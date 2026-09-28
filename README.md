@@ -22,11 +22,11 @@ Todas as citações literais de políticas e normas foram extraídas das página
 
 ## Roteiro de tempo (40 min)
 
-São 71 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~59 slides**.
+São 72 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~60 slides**.
 
 Em 38 minutos de fala isso dá **41 s por slide** — rápido demais para os slides que têm tabela ou citação longa. **A versão completa não cabe em 40 min.** O deck está montado para servir a dois formatos:
 
-**Versão 40 min (~50 slides).** Corte estes nove, que não quebram o argumento. Eles estão marcados no deck com **✂ opcional** no canto superior direito — a marca vem da classe `.opcional` no cabeçalho do slide (`## Título {.smaller .opcional}`), estilizada em `custom.scss`. Para esconder a marca sem mexer no conteúdo, basta comentar a regra `.reveal section.opcional::after`.
+**Versão 40 min (~51 slides).** Corte estes nove, que não quebram o argumento. Eles estão marcados no deck com **✂ opcional** no canto superior direito — a marca vem da classe `.opcional` no cabeçalho do slide (`## Título {.smaller .opcional}`), estilizada em `custom.scss`. Para esconder a marca sem mexer no conteúdo, basta comentar a regra `.reveal section.opcional::after`.
 
 - *O pano de fundo: integridade sob pressão* (retratações — a mensagem já está no bloco 0)
 - *Quem faz o quê* (o semáforo cobre)
@@ -59,7 +59,7 @@ que é regra brasileira e não se aplica a parte da audiência.
 | Bloco | Minutos (versão 40) |
 |---|---|
 | Abertura + de onde eu falo + roteiro | 3 |
-| 0 · Cenário | 6 |
+| 0 · Cenário (inclui os três estudos pós-Kobak) | 7 |
 | 1 · Ética | 5 |
 | 2 · Editoras + os quatro usos + o contraexemplo | 10 |
 | 3 · Política de IA + CNPq | 5 |
