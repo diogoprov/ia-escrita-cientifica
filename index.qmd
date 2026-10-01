@@ -736,8 +736,10 @@ Fluência e correção são propriedades **independentes**. O modelo otimiza a p
 
 Séamus Martin, editor-chefe do *FEBS Journal*, formula o mesmo ponto de forma mais afiada: o objetivo da IA não é ser acurada — é **parecer** acurada.
 
+E a medição acompanha a intuição: revisão sistemática de 20 estudos encontra bom desempenho em crença falsa de **primeira ordem** e falha na **segunda ordem** e na inferência recursiva. A ressalva dos próprios autores pesa mais que o número — parte do desempenho vem de testes desenhados para o que o modelo faz bem, o que "limit[a] direct comparisons with human performance". **Passar no teste não é ter a capacidade.**
+
 ::: {.fonte}
-ACS Nano 17:4091–4093 (2023). doi:10.1021/acsnano.3c01544 · Martin SJ (2026). *The FEBS Journal in 2026: safeguarding scientific integrity amid the rise of the machines*. FEBS J 293:5–9. doi:10.1111/febs.70388
+ACS Nano 17:4091–4093 (2023). doi:10.1021/acsnano.3c01544 · Martin SJ (2026). *The FEBS Journal in 2026: safeguarding scientific integrity amid the rise of the machines*. FEBS J 293:5–9. doi:10.1111/febs.70388 · Marchetti A et al. (2025). *Cyberpsychol Behav Soc Netw* 28(7):505–514. doi:10.1089/cyber.2024.0536
 :::
 
 ## Limite 1 — referências inventadas {.smaller}
@@ -840,17 +842,22 @@ Antes de colar qualquer coisa numa ferramenta, verifique nos termos de uso:
 Wiley (2026); OUP, *Author use of Artificial Intelligence (AI)*; Elsevier, *Generative AI policies for journals*
 :::
 
-## Limite 5 — o que você não percebe que perdeu {.smaller .opcional}
+## Limite 5 — o que você não percebe que perdeu {.smaller}
 
-Sinais de dependência, segundo a própria orientação da Wiley — evite:
+Messeri & Crockett (*Nature*, 2024) nomeiam três **ilusões de compreensão**. São erros seus, não do modelo — e por isso não aparecem em nenhuma checagem de saída:
 
-- usar IA para **tomar** decisões em vez de informar seu julgamento;
-- apoiar-se **só** em resumos gerados, em vez de ler as fontes primárias;
-- incorporar sugestões **sem entender a razão** delas;
-- usar IA para **pular etapas de formação**.
+- **profundidade explicativa** — você acredita entender mais do que entende;
+- **amplitude exploratória** — você acredita varrer todo o espaço de hipóteses testáveis, quando varre "a narrower space of hypotheses testable using AI tools";
+- **objetividade** — você acredita que a ferramenta não tem ponto de vista, quando ela "embed[s] the standpoints of their training data and developers".
+
+Sinais de dependência, segundo a orientação da Wiley — evite usar IA para **tomar** decisões em vez de informar seu julgamento; apoiar-se **só** em resumos gerados; incorporar sugestões **sem entender a razão**; usar IA para **pular etapas de formação**.
 
 ::: {.bsl-destaque}
 Três perguntas antes de aceitar qualquer trecho: *Eu entendi por quê? Eu conseguiria defender isso numa arguição? Eu assino embaixo?*
+:::
+
+::: {.fonte}
+Messeri L, Crockett MJ (2024). *Artificial intelligence and illusions of understanding in scientific research*. Nature 627:49–58. doi:10.1038/s41586-024-07146-0 · Wiley, *Using AI tools in your research* (2026)
 :::
 
 ## Checklist operacional {.smaller}
@@ -1091,17 +1098,19 @@ Slides, código-fonte e todas as referências deste seminário estão no reposit
 - Davison RM et al. (2026). *Research Integrity Matters, But It Is Undermined by Generative AI*. Information Systems Journal. doi:10.1111/isj.70055
 - Drobniak SM et al. (2026). *A systematic map of generative AI guidelines and reporting in ecology and evolutionary biology: towards the framework of AI disclosure for Improved Transparency (AIdIT)*. Research Integrity and Peer Review. doi:10.1186/s41073-026-00230-1
 - Hilliard A, Gulley A, Kazim E, Koshiyama AS (2026). *Artificial intelligence policy worldwide: a comparative analysis*. R. Soc. Open Sci. 13:242234. doi:10.1098/rsos.242234
+- Jamali HR, Wakeling S, Luca EJ (2025). *Challenges and Strategies in Local Journal Publishing: Perspectives of Australian Journal Editors*. Learned Publishing 39(1). doi:10.1002/leap.2034
 - Kobak D, González-Márquez R, Horvát E-Á, Lause J (2025). *Delving into LLM-assisted writing in biomedical publications through excess vocabulary*. Science Advances. doi:10.1126/sciadv.adt3813
 - Larivière V, Haustein S, Mongeon P (2015). *The Oligopoly of Academic Publishers in the Digital Era*. PLoS ONE 10(6):e0127502. doi:10.1371/journal.pone.0127502
 
-## Referências {.smaller}
+## Referências {.smaller .scrollable}
 
 **Artigos** (continuação)
 
-- Jamali HR, Wakeling S, Luca EJ (2025). *Challenges and Strategies in Local Journal Publishing: Perspectives of Australian Journal Editors*. Learned Publishing 39(1). doi:10.1002/leap.2034
+- Marchetti A, Manzi F, Riva G, Gaggioli A, Massaro D (2025). *Artificial Intelligence and the Illusion of Understanding: A Systematic Review of Theory of Mind and Large Language Models*. Cyberpsychology, Behavior, and Social Networking 28(7):505–514. doi:10.1089/cyber.2024.0536
 - Martin SJ (2026). *The FEBS Journal in 2026: Safeguarding scientific integrity amid the rise of the machines*. FEBS Journal 293:5–9. doi:10.1111/febs.70388
 - McClure CJW (2026). *Generative-AI policies vary widely across top ornithology journals*. Ibis 168:1159–1163. doi:10.1111/ibi.70054
 - Mehta N et al. (2026). *A call for clarity: a unified checklist for reporting use of large language models in writing scientific manuscripts*. Research Integrity and Peer Review 11:24. doi:10.1186/s41073-026-00212-3
+- Messeri L, Crockett MJ (2024). *Artificial intelligence and illusions of understanding in scientific research*. Nature 627:49–58. doi:10.1038/s41586-024-07146-0
 - Park J (2025). *Towards a transparent and reproducible AI-assisted research paper writing*. Genomics & Informatics 23:26. doi:10.1186/s44342-025-00057-0
 - Wang Z, Gong M (2025). *A Cross-Disciplinary Analysis of AI Policies in Academic Peer Review*. Learned Publishing 39(1). doi:10.1002/leap.2035
 - White RR (2025). *Generative artificial intelligence tools in journal article preparation*. JDS Communications 6:452–457. doi:10.3168/jdsc.2024-0707
