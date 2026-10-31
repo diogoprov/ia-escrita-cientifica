@@ -20,54 +20,37 @@ Público-alvo: pós-graduação e docentes.
 
 Todas as citações literais de políticas e normas foram extraídas das páginas oficiais e dos PDFs originais; todos os DOIs e URLs foram verificados.
 
-## Roteiro de tempo (40 min)
+## Roteiro de tempo
 
-São 72 slides, dos quais 7 são aberturas de bloco (5 s cada) e 5 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~60 slides**.
+São 65 slides, dos quais 7 são aberturas de bloco (5 s cada) e 6 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~52 slides** apresentáveis.
 
-Em 38 minutos de fala isso dá **41 s por slide** — rápido demais para os slides que têm tabela ou citação longa. **A versão completa não cabe em 40 min.** O deck está montado para servir a dois formatos:
+**Lição da primeira apresentação (out/2026):** as perguntas vieram no meio, não no fim, e custaram de 8 a 15 min. Num grupo engajado isso não sai de corte nenhum — o deck precisa caber em **~28 min de fala**, não em 38. Ou se anuncia no começo que as perguntas ficam para o fim de cada bloco.
 
-**Versão 40 min (~51 slides).** Corte estes nove, que não quebram o argumento. Eles estão marcados no deck com **✂ opcional** no canto superior direito — a marca vem da classe `.opcional` no cabeçalho do slide (`## Título {.smaller .opcional}`), estilizada em `custom.scss`. Para esconder a marca sem mexer no conteúdo, basta comentar a regra `.reveal section.opcional::after`.
+**Versão curta (~42 slides).** Os slides marcados com **✂ opcional** no canto superior direito saem:
 
-- *O pano de fundo: integridade sob pressão* (retratações — a mensagem já está no bloco 0)
-- *Quem faz o quê* (o semáforo cobre)
+- *O pano de fundo: integridade sob pressão*
+- *Quem faz o quê*
+- *Por que estas cinco* (a justificativa bibliométrica da escolha das editoras; diga em uma frase sobre a tabela comparativa)
+- *Taylor & Francis e Sage: o que muda* (detalhe editora-a-editora; o semáforo e os quatro usos já dão a regra)
 - *Duas a mais que valem a pena conhecer* (Cambridge e OUP)
+- *E se descumprir?* (sanções; a linha essencial já está em *Lendo a portaria com atenção*)
 - *Por que o COPE importa mais que parece*
-- *Limite 2 — o viés do corpus* (já aparece no slide de equidade)
 - *Limite 5 — o que você não percebe que perdeu*
-- *O que esse caso ensina* (a crítica ao mecanismo do *Reviews in Aquaculture*; o slide anterior já entrega a regra)
 - *Outras propostas na mesa* (Mehta, Park, DAISY)
 - *E na tese? Não existe regra* (mantendo só o *Modelo para tese*)
 
-**Versão 60 min ou aula:** tudo, com discussão.
+A marca vem da classe `.opcional` no cabeçalho (`## Título {.smaller .opcional}`), estilizada em `custom.scss`. Para escondê-la, comente a regra `.reveal section.opcional::after`.
 
-## Onde esta palestra foi/será dada
+Os slides que **não** devem sair em nenhuma versão: *De onde eu falo* (declaração de conflito de interesses), *Os quatro usos que vocês de fato fazem*, *Responder ao parecerista*, *A taxonomia: estágio × tipo de uso*, *Modelo para tese e dissertação*, e o par *O contra-argumento* / *A resposta*.
 
-- **Outubro de 2026** — reunião anual do PPG em Biologia Animal, UFMS, Campo Grande
-- **Dezembro de 2026** — UNILA, Foz do Iguaçu
+### Fusões feitas na revisão pós-estreia
 
-O slide de título **não traz data**: `date: today` imprimiria a data do render, que fica errada
-na segunda apresentação, e qualquer texto livre no campo `date` faz o Quarto imprimir
-*"Invalid Date"*. O local e a data são ditos em voz alta e ficam registrados aqui e em
-[provetelab.org/talks.html](https://provetelab.org/talks.html).
-
-**Para a UNILA, vale considerar:** o público de uma universidade de integração
-latino-americana tende a ser mais diverso em língua materna, com hispanofalantes.
-O slide *O problema de equidade tem dois lados* e o argumento de barreira linguística
-(Amano et al. 2023) ganham peso ali — vale demorar mais nesses e menos na Portaria do CNPq,
-que é regra brasileira e não se aplica a parte da audiência.
-
-| Bloco | Minutos (versão 40) |
-|---|---|
-| Abertura + de onde eu falo + roteiro | 3 |
-| 0 · Cenário (inclui os três estudos pós-Kobak) | 7 |
-| 1 · Ética | 5 |
-| 2 · Editoras + os quatro usos + o contraexemplo | 10 |
-| 3 · Política de IA + CNPq | 5 |
-| 4 · COPE | 2 |
-| 5 · Mapa dos termos + limites (inclui detecção) | 6 |
-| 6 · AIdIT + tese + contra-argumento + síntese | 5 |
-
-Os slides que **não** deveriam sair, mesmo com o tempo curto: *De onde eu falo* (declaração de conflito de interesses), *Antes de falar de limites: o mapa dos termos* (a plateia usa "IA", "LLM" e "ChatGPT" como sinônimos; sem o mapa, o bloco 5 inteiro fica ambíguo), *Os quatro usos que vocês de fato fazem*, *Responder ao parecerista*, *Modelo para tese e dissertação*, e o par *O contra-argumento* / *A resposta*. São eles que tornam a palestra acionável e impedem que ela vire propaganda do AIdIT.
+| Antes | Depois | Por quê |
+|---|---|---|
+| *O volume de submissões explodiu* + *E a triagem editorial acompanhou* | *O volume subiu — e a triagem foi junto* | Mesma fonte (ScholarOne), mesma mensagem, dois slides |
+| *Elsevier: figuras e imagens* + *Wiley: a mesma linha, dita de outro jeito* | *Imagens: evidência não se melhora* | O título do segundo já admitia a repetição |
+| *Limite 2 — o viés do corpus* | absorvido em *O problema de equidade tem dois lados* | Usavam a mesma citação da Wiley |
+| *A portaria e as editoras: o que exige mais* | absorvido em *Lendo a portaria com atenção* | O cruzamento editora × CNPq já está, e melhor, em *Os quatro usos* |
 
 ## Estrutura do repositório
 

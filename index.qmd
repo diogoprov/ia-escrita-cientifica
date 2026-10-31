@@ -63,42 +63,29 @@ Julguem o argumento pelas fontes, que estão todas nos slides, e não pelo meu c
 
 # 0 · O cenário {.bsl-secao background-color="#f3eee3"}
 
-## O volume de submissões explodiu {.smaller}
+## O volume subiu — e a triagem foi junto {.smaller}
 
 ::: {.columns}
 ::: {.column width="33%"}
 [+33%]{.numero}
-[submissões no 1º trimestre de 2026 vs. 2025 (plataforma ScholarOne)]{.numero-legenda}
-:::
-::: {.column width="33%"}
-[17% → 33%]{.numero}
-[a taxa de crescimento **dobrou** de 2025 para 2026]{.numero-legenda}
+[submissões no 1º trimestre de 2026 vs. 2025 (plataforma ScholarOne) — e a taxa de crescimento **dobrou** em relação a 2025]{.numero-legenda}
 :::
 ::: {.column width="33%"}
 [+81%]{.numero}
-[em periódicos pequenos (&lt;15 submissões/trimestre); grandes cresceram 20%]{.numero-legenda}
+[em periódicos pequenos (&lt;15 submissões/trimestre); os grandes cresceram 20%]{.numero-legenda}
+:::
+::: {.column width="33%"}
+[1,69 → 2,49]{.numero}
+[desk rejections por aceite, de 2022 a 2025 — elas cresceram 72%, contra 43% no total de decisões]{.numero-legenda}
 :::
 :::
 
 ::: {.bsl-destaque}
-O crescimento é **assimétrico**: bate mais forte em quem tem menos estrutura editorial para absorver.
+O crescimento é **assimétrico**: bate mais forte em quem tem menos estrutura editorial para absorver. E o gargalo mudou de lugar — deixou de ser o parecerista e passou a ser **o tempo do editor para decidir o que sequer entra em revisão**.
 :::
 
 ::: {.fonte}
-Dados da plataforma ScholarOne Manuscripts, compilados em *The Scholarly Kitchen* (13/05/2026): <https://scholarlykitchen.sspnet.org/2026/05/13/guest-post-is-growth-always-good-news-2026-article-submission-surges/>
-:::
-
-## E a triagem editorial acompanhou {.smaller}
-
-- Entre 2022 e 2025, as **desk rejections cresceram 72%** — quase o dobro do crescimento de 43% no total de decisões editoriais.
-- A razão passou de **1,69 desk rejection por aceite (2022)** para **2,49 (2025)**.
-
-::: {.bsl-destaque}
-**Leitura de quem está do outro lado:** o gargalo deixou de ser o parecerista. Passou a ser o tempo do editor para decidir o que sequer entra em revisão.
-:::
-
-::: {.fonte}
-Mesma fonte (ScholarOne / *The Scholarly Kitchen*, 2026). O autor é explícito: o padrão "é consistente com crescimento legítimo", mas também é "o padrão que se esperaria se parte relevante da alta refletisse submissões de baixo esforço, assistidas por IA".
+Dados da plataforma ScholarOne Manuscripts, compilados em *The Scholarly Kitchen* (13/05/2026): <https://scholarlykitchen.sspnet.org/2026/05/13/guest-post-is-growth-always-good-news-2026-article-submission-surges/>. O autor é explícito: o padrão "é consistente com crescimento legítimo", mas também é "o padrão que se esperaria se parte relevante da alta refletisse submissões de baixo esforço, assistidas por IA".
 :::
 
 ## A mesma curva, vista da mesa do editor {.smaller}
@@ -250,7 +237,7 @@ Recorte do resumo gráfico de White (2025), JDS Communications, doi:10.3168/jdsc
 
 **A favor do uso:** para quem não é falante nativo de inglês, LLMs reduzem uma barreira linguística real e documentada — e essa barreira sempre foi um filtro injusto na ciência.
 
-**Contra o uso acrítico:** as ferramentas herdam e amplificam vieses do corpus.
+**Contra o uso acrítico:** as ferramentas herdam e amplificam vieses do corpus — e, além de sub-representar a literatura paga, tendem a **suprimir visões minoritárias** e a resumir o consenso, sem apontar para onde o campo está indo.
 
 > "As tecnologias de IA não têm acesso, por padrão, a conteúdo de periódicos por assinatura ou atualizado atrás de paywall. Em consequência, podem **super-representar a literatura de acesso aberto** e o conteúdo geral da web, e **sub-representar** a pesquisa publicada em periódicos híbridos e de assinatura." — Wiley
 
@@ -263,7 +250,7 @@ Para nós, no Sul global: a ferramenta que derruba a barreira do idioma pode, ao
 :::
 
 ::: {.fonte}
-Wiley, *Using AI tools in your research* (2026). · Park J. *Towards a transparent and reproducible AI-assisted research paper writing*. Genomics & Informatics 23:26 (2025). doi:10.1186/s44342-025-00057-0
+Wiley, *Using AI tools in your research* (2026) · ACS Nano 17:4091–4093 (2023). doi:10.1021/acsnano.3c01544 · Park J. *Towards a transparent and reproducible AI-assisted research paper writing*. Genomics & Informatics 23:26 (2025). doi:10.1186/s44342-025-00057-0
 :::
 
 ## O custo invisível: o treinamento de quem está começando {.smaller}
@@ -304,7 +291,7 @@ Vale a pena ler inteiro. É a peça mais honesta que li sobre o assunto, e não 
 
 # 2 · As regras das editoras {.bsl-secao background-color="#f3eee3"}
 
-## Por que estas cinco {.smaller}
+## Por que estas cinco {.smaller .opcional}
 
 Elsevier, Springer Nature, Wiley, Taylor & Francis e Sage concentram a maior parte do que publicamos.
 
@@ -360,29 +347,23 @@ Detalhe que muita gente erra: **"Basic checks of grammar, spelling and punctuati
 <https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals>
 :::
 
-## Elsevier: figuras e imagens {.smaller}
+## Imagens: evidência não se melhora {.smaller}
 
-- **Imagens explicativas:** permitidas — "The use of AI tools should be disclosed in the caption of each image".
-- **Visualizações de dados:** só "when the visual output is directly derived from underlying data".
-- **Dados primários:** "AI tools must not be used to create or alter images that represent primary observed or experimental data".
-- **Abstract gráfico:** "General-purpose generative AI image tools must not be used to create graphical abstracts".
+Elsevier e Wiley dizem a mesma coisa com palavras diferentes:
+
+- **Ilustração conceitual e visualização de dados:** permitidas, com declaração — na Elsevier, "na legenda de cada imagem" — e, no caso de dados, só "when the visual output is directly derived from underlying data".
+- **Dados primários:** "AI tools must not be used to create or alter images that represent primary observed or experimental data" (Elsevier).
+- **Fotografias:** não. Para ajuste legítimo, software convencional, edições **mínimas e uniformes** (contraste, cor).
+- **Abstract gráfico:** ferramentas generativas de uso geral estão fora (Elsevier).
+
+> "Fotografias em manuscritos de pesquisa servem como **evidência e artefato** do seu processo de pesquisa. Ferramentas de melhoria por IA podem introduzir alterações não intencionais que comprometem a confiabilidade e a reprodutibilidade dessa evidência." — Wiley
 
 ::: {.bsl-destaque}
-Para nós: foto de espécime, radiografia, gel, prancha de girinos — **nada de "melhorar" com IA**. É evidência, não ilustração.
+Para nós: foto de espécime, gel, prancha de girinos — **nada de "melhorar"**. Analisar foto por IA **como método** é outra coisa: é permitido, e vai em Métodos.
 :::
 
-## Wiley: a mesma linha, dita de outro jeito {.smaller}
-
-- **Visualização de dados e ilustrações conceituais:** permitidas, com declaração e verificação.
-- **Fotografias:** *não*.
-
-> "Photographs in research manuscripts serve as evidence and artifacts of your research process. AI enhancement tools can introduce unintended alterations that compromise the reliability and reproducibility of your research evidence."
-
-- Para ajustes legítimos: software convencional, edições **mínimas e uniformes** (contraste, cor).
-- Analisar fotos por IA **como método** é permitido — e vai na seção de métodos.
-
 ::: {.fonte}
-Wiley, *Using AI tools in your research* (2026): <https://www.wiley.com/publishing/article/ai-guidelines>
+Elsevier, *Generative AI policies for journals* · Wiley, *Using AI tools in your research* (2026). Original da citação: "Photographs in research manuscripts serve as evidence and artifacts of your research process. AI enhancement tools can introduce unintended alterations that compromise the reliability and reproducibility of your research evidence."
 :::
 
 ## Springer Nature: o semáforo {.smaller}
@@ -452,7 +433,7 @@ A linha que separa tudo isso é uma só: **a IA pode trabalhar sobre o que você
 
 Não há nada de errado em escrever uma carta-resposta clara e educada com ajuda. O que não pode é **prometer no *rebuttal* uma análise que você não fez**.
 
-## Taylor & Francis e Sage: o que muda {.smaller}
+## Taylor & Francis e Sage: o que muda {.smaller .opcional}
 
 **Taylor & Francis** — a declaração deve conter:
 
@@ -561,7 +542,13 @@ Três consequências que costumam passar batido:
 2. **"exposições eletrônicas"** inclui slides, pôsteres e relatórios — não só o artigo.
 3. A alínea **(e)** é uma proibição absoluta: **projeto de terceiro não entra em ferramenta de IAG**, ponto. Isso alcança pareceres *ad hoc* do CNPq, de FAPs e de comitês internos.
 
-## E se descumprir? {.smaller}
+::: {.bsl-destaque}
+**Resultado prático:** a portaria é **mais abrangente que a maioria das políticas editoriais** — onde elas dispensam declaração para gramática, a alínea (c) não abre exceção. Declarando no padrão CNPq, você está coberto nos dois mundos.
+:::
+
+E a responsabilidade tem dente: referência fabricada por LLM que entra no texto final é, pela alínea (d), responsabilidade integral dos autores — com sanções que vão de advertência a **suspensão do Lattes** e devolução de recursos (Arts. 33 e 34).
+
+## E se descumprir? {.smaller .opcional}
 
 A portaria não cria uma infração específica de "uso indevido de IA". Ela funciona pelo resultado:
 
@@ -570,19 +557,6 @@ A portaria não cria uma infração específica de "uso indevido de IA". Ela fun
 
 ::: {.bsl-destaque}
 Referência fabricada por LLM que passa para o texto final não é "erro da ferramenta". Pela alínea (d), é responsabilidade integral dos autores.
-:::
-
-## A portaria e as editoras: o que exige mais {.smaller}
-
-| Situação | Editoras (típico) | CNPq 2.664/2026 |
-|---|---|---|
-| Revisão de gramática/ortografia | Dispensa declaração (Elsevier, T&F, Sage) | Alínea (c) não abre exceção |
-| Ajuda na concepção da pesquisa | Âmbar / exige declaração | Declarar: "qualquer fase" |
-| Código de análise gerado por IA | Varia; T&F dispensa | Declarar: "análise de dados" |
-| Parecer com apoio de IA | Restrito; proibido subir manuscrito | **Vedado** inserir projeto de terceiro |
-
-::: {.bsl-destaque}
-Na prática: **a portaria é mais abrangente que a maioria das políticas editoriais**. Se você declarar no padrão CNPq, estará coberto nos dois mundos.
 :::
 
 # 4 · A posição do COPE {.bsl-secao background-color="#f3eee3"}
@@ -650,20 +624,6 @@ E o passo que quase ninguém dá:
 
 ::: {.bsl-destaque}
 A referência existir não basta. Ela precisa **dizer o que você afirma que ela diz**.
-:::
-
-## Limite 2 — o viés do corpus {.smaller .opcional}
-
-- **Sub-representa literatura paga**, super-representa acesso aberto e conteúdo geral da web (Wiley).
-- Tende a **suprimir visões minoritárias** e trabalhos com poucas citações.
-- Não é *forward-looking*: resume o consenso. Introduções e revisões construídas sobre a saída do modelo "will lack thoughtful insights on where a field is headed".
-
-::: {.bsl-destaque}
-Para revisão de literatura: a IA **complementa** a busca em bases; não substitui. Leia as fontes primárias que são críticas para o seu argumento.
-:::
-
-::: {.fonte}
-ACS Nano (2023), doi:10.1021/acsnano.3c01544 · Wiley, *Using AI tools in your research* (2026)
 :::
 
 ## Limite 3 — os detectores não resolvem {.smaller}
@@ -1015,12 +975,15 @@ Slides, código-fonte e todas as referências deste seminário estão no reposit
 
 - *The Scholarly Kitchen* (13/05/2026), dados da plataforma ScholarOne Manuscripts
 - Van Noorden R (2023). *More than 10,000 research papers were retracted in 2023 — a new record*. Nature 624:479–481.
+- Karamanis M (2026). *The machines are fine. I'm worried about us.* <https://ergosphere.blog/posts/the-machines-are-fine/>
 
 **Detecção**
 
 - Weber-Wulff D et al. (2023). *Testing of detection tools for AI-generated text*. International Journal for Educational Integrity 19:26. doi:10.1007/s40979-023-00146-z
 - Liang W, Yuksekgonul M, Mao Y, Wu E, Zou J (2023). *GPT detectors are biased against non-native English writers*. Patterns 4(7):100779. doi:10.1016/j.patter.2023.100779
-- Karamanis M (2026). *The machines are fine. I'm worried about us.* <https://ergosphere.blog/posts/the-machines-are-fine/>
+- OpenAI. *New AI classifier for indicating AI-written text* — nota de descontinuação (20/07/2023).
+
+## Referências {.smaller}
 
 **Figuras reaproveitadas**
 
