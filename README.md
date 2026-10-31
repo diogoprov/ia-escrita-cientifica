@@ -22,17 +22,19 @@ Todas as citações literais de políticas e normas foram extraídas das página
 
 ## Roteiro de tempo
 
-São 65 slides, dos quais 7 são aberturas de bloco (5 s cada) e 6 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~52 slides** apresentáveis.
+São 69 slides, dos quais 7 são aberturas de bloco (5 s cada) e 6 são de apoio (referências e declaração de IA, normalmente não apresentados). Sobram **~56 slides** apresentáveis.
 
 **Lição da primeira apresentação (out/2026):** as perguntas vieram no meio, não no fim, e custaram de 8 a 15 min. Num grupo engajado isso não sai de corte nenhum — o deck precisa caber em **~28 min de fala**, não em 38. Ou se anuncia no começo que as perguntas ficam para o fim de cada bloco.
 
-**Versão curta (~42 slides).** Os slides marcados com **✂ opcional** no canto superior direito saem:
+**Versão curta (~43 slides).** Os slides marcados com **✂ opcional** no canto superior direito saem, na ordem em que aparecem:
 
+- *Três estudos depois do Kobak* (Kousha & Thelwall, Siler, Bao; o slide anterior já dá a ordem de grandeza)
 - *O pano de fundo: integridade sob pressão*
 - *Quem faz o quê*
 - *Por que estas cinco* (a justificativa bibliométrica da escolha das editoras; diga em uma frase sobre a tabela comparativa)
 - *Taylor & Francis e Sage: o que muda* (detalhe editora-a-editora; o semáforo e os quatro usos já dão a regra)
 - *Duas a mais que valem a pena conhecer* (Cambridge e OUP)
+- *Um periódico que escreveu a sua própria regra* e *O que esse caso ensina* (o caso do *Reviews in Aquaculture*; par, não se corta um só)
 - *E se descumprir?* (sanções; a linha essencial já está em *Lendo a portaria com atenção*)
 - *Por que o COPE importa mais que parece*
 - *Limite 5 — o que você não percebe que perdeu*
@@ -41,7 +43,7 @@ São 65 slides, dos quais 7 são aberturas de bloco (5 s cada) e 6 são de apoio
 
 A marca vem da classe `.opcional` no cabeçalho (`## Título {.smaller .opcional}`), estilizada em `custom.scss`. Para escondê-la, comente a regra `.reveal section.opcional::after`.
 
-Os slides que **não** devem sair em nenhuma versão: *De onde eu falo* (declaração de conflito de interesses), *Os quatro usos que vocês de fato fazem*, *Responder ao parecerista*, *A taxonomia: estágio × tipo de uso*, *Modelo para tese e dissertação*, e o par *O contra-argumento* / *A resposta*.
+Os slides que **não** devem sair em nenhuma versão: *De onde eu falo* (declaração de conflito de interesses), *Antes de falar de limites: o mapa dos termos*, *Os quatro usos que vocês de fato fazem*, *Responder ao parecerista*, *A taxonomia: estágio × tipo de uso*, *Modelo para tese e dissertação*, e o par *O contra-argumento* / *A resposta*.
 
 ### Fusões feitas na revisão pós-estreia
 
